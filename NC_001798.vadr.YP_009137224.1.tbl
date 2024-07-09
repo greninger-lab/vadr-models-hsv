@@ -1,0 +1,13 @@
+>Feature ref|YP_009137224.1|
+1	151	Protein
+			product	tegument protein US11
+			prot_desc	dsRNA-binding protein; antagonizes PKR; inhibits stress-induced translational arrest; involved in translational regulation
+<6	>115	Region
+			region	PTZ00449
+			note	104 kDa microneme/rhoptry antigen; Provisional
+			db_xref	CDD:185628
+1	151	CDS
+			product	tegument protein US11
+			prot_desc	dsRNA-binding protein; antagonizes PKR; inhibits stress-induced translational arrest; involved in translational regulation
+			protein_id	ref|YP_009137224.1|
+

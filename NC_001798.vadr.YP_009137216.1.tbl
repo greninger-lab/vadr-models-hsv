@@ -1,0 +1,18 @@
+>Feature ref|YP_009137216.1|
+1	699	Protein
+			product	envelope glycoprotein G
+			prot_desc	type 1 membrane protein; contains a signal peptide; involved in cell-to-cell spread
+83	195	Region
+			region	Herpes_glycop_D
+			note	Herpesvirus glycoprotein D/GG/GX domain
+			db_xref	CDD:426313
+<210	635	Region
+			region	PHA03247
+			note	large tegument protein UL36; Provisional
+			db_xref	CDD:223021
+1	699	CDS
+			product	envelope glycoprotein G
+			prot_desc	type 1 membrane protein; contains a signal peptide; involved in cell-to-cell spread
+			protein_id	ref|YP_009137216.1|
+			note	gD family
+

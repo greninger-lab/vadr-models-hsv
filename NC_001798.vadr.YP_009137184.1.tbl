@@ -1,0 +1,13 @@
+>Feature ref|YP_009137184.1|
+1	598	Protein
+			product	DNA packaging protein UL32
+			prot_desc	involved in DNA encapsidation; possibly involved in capsid transport
+3	598	Region
+			region	PHA03232
+			note	DNA packaging protein UL32; Provisional
+			db_xref	CDD:223015
+1	598	CDS
+			product	DNA packaging protein UL32
+			prot_desc	involved in DNA encapsidation; possibly involved in capsid transport
+			protein_id	ref|YP_009137184.1|
+

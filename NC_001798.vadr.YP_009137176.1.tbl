@@ -1,0 +1,13 @@
+>Feature ref|YP_009137176.1|
+1	585	Protein
+			product	DNA packaging tegument protein UL25
+			prot_desc	located on capsid near vertices; possibly stabilizes the capsid and retains the genome; involved in DNA encapsidation
+1	585	Region
+			region	PHA03248
+			note	DNA packaging tegument protein UL25; Provisional
+			db_xref	CDD:223022
+1	585	CDS
+			product	DNA packaging tegument protein UL25
+			prot_desc	located on capsid near vertices; possibly stabilizes the capsid and retains the genome; involved in DNA encapsidation
+			protein_id	ref|YP_009137176.1|
+

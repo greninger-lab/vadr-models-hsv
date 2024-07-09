@@ -1,0 +1,13 @@
+>Feature ref|YP_009137157.1|
+1	678	Protein
+			product	capsid portal protein
+			prot_desc	dodecamer located at one capsid vertex in place of a penton; involved in DNA encapsidation
+37	612	Region
+			region	Herpes_UL6
+			note	Herpesvirus UL6 like
+			db_xref	CDD:426416
+1	678	CDS
+			product	capsid portal protein
+			prot_desc	dodecamer located at one capsid vertex in place of a penton; involved in DNA encapsidation
+			protein_id	ref|YP_009137157.1|
+

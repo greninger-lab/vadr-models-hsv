@@ -1,0 +1,13 @@
+>Feature ref|YP_009137213.1|
+1	414	Protein
+			product	regulatory protein ICP22
+			prot_desc	required for expression of a subset of late genes; involved in gene regulation; involved in cell cycle regulation
+177	287	Region
+			region	Herpes_IE68
+			note	Herpesvirus immediate early protein
+			db_xref	CDD:280616
+1	414	CDS
+			product	regulatory protein ICP22
+			prot_desc	required for expression of a subset of late genes; involved in gene regulation; involved in cell cycle regulation
+			protein_id	ref|YP_009137213.1|
+

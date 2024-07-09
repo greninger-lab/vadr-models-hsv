@@ -1,0 +1,11 @@
+>Feature ref|YP_009137208.1|
+1	186	Protein
+			product	nuclear protein UL55
+1	178	Region
+			region	PHA03230
+			note	nuclear protein UL55; Provisional
+			db_xref	CDD:223013
+1	186	CDS
+			product	nuclear protein UL55
+			protein_id	ref|YP_009137208.1|
+

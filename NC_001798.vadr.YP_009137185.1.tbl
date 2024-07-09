@@ -1,0 +1,13 @@
+>Feature ref|YP_009137185.1|
+1	130	Protein
+			product	DNA packaging protein UL33
+			prot_desc	interacts with DNA packaging terminase subunit 2; involved in DNA encapsidation
+3	130	Region
+			region	PHA03229
+			note	DNA packaging protein UL33; Provisional
+			db_xref	CDD:223012
+1	130	CDS
+			product	DNA packaging protein UL33
+			prot_desc	interacts with DNA packaging terminase subunit 2; involved in DNA encapsidation
+			protein_id	ref|YP_009137185.1|
+

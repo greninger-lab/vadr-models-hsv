@@ -1,0 +1,16 @@
+>Feature ref|YP_009137203.1|
+1	369	Protein
+			product	deoxyuridine triphosphatase
+			prot_desc	involved in nucleotide metabolism
+			EC_number	3.6.1.23
+1	369	Region
+			region	PHA03130
+			note	dUTPase; Provisional
+			db_xref	CDD:222995
+1	369	CDS
+			product	deoxyuridine triphosphatase
+			prot_desc	involved in nucleotide metabolism
+			EC_number	3.6.1.23
+			protein_id	ref|YP_009137203.1|
+			note	DURP family
+

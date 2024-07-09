@@ -1,0 +1,13 @@
+>Feature ref|YP_009137173.1|
+1	838	Protein
+			product	envelope glycoprotein H
+			prot_desc	type 1 membrane protein; contains a signal peptide; possible membrane fusogen; complexed with envelope glycoprotein L; involved in cell entry; involved in cell-to-cell spread
+1	838	Region
+			region	PHA03294
+			note	envelope glycoprotein H; Provisional
+			db_xref	CDD:223035
+1	838	CDS
+			product	envelope glycoprotein H
+			prot_desc	type 1 membrane protein; contains a signal peptide; possible membrane fusogen; complexed with envelope glycoprotein L; involved in cell entry; involved in cell-to-cell spread
+			protein_id	ref|YP_009137173.1|
+

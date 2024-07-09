@@ -1,0 +1,13 @@
+>Feature ref|YP_009137201.1|
+1	300	Protein
+			product	tegument protein VP22
+			prot_desc	involved in virion morphogenesis; possibly involved in RNA transport to uninfected cells
+1	274	Region
+			region	PHA03381
+			note	tegument protein VP22; Provisional
+			db_xref	CDD:177618
+1	300	CDS
+			product	tegument protein VP22
+			prot_desc	involved in virion morphogenesis; possibly involved in RNA transport to uninfected cells
+			protein_id	ref|YP_009137201.1|
+

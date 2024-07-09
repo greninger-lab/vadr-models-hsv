@@ -1,0 +1,13 @@
+>Feature ref|YP_009137206.1|
+1	338	Protein
+			product	envelope glycoprotein K
+			prot_desc	type 3 membrane protein; contains a signal peptide; 4 transmembrane domains; involved in virion morphogenesis; involved in membrane fusion
+1	338	Region
+			region	PHA03276
+			note	envelope glycoprotein K; Provisional
+			db_xref	CDD:165533
+1	338	CDS
+			product	envelope glycoprotein K
+			prot_desc	type 3 membrane protein; contains a signal peptide; 4 transmembrane domains; involved in virion morphogenesis; involved in membrane fusion
+			protein_id	ref|YP_009137206.1|
+

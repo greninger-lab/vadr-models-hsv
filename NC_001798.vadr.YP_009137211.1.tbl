@@ -1,0 +1,9 @@
+>Feature ref|YP_009137211.1|
+1	261	Protein
+			product	neurovirulence protein ICP34.5
+			prot_desc	virion protein; inhibits stress-induced translational arrest; related to eIF2 phosphatase regulatory subunit GADD34; binds protein phosphatase 1 to form a holoenzyme capable of dephosphorylating eIF2-alpha; involved in translational regulation
+1	261	CDS
+			product	neurovirulence protein ICP34.5
+			prot_desc	virion protein; inhibits stress-induced translational arrest; related to eIF2 phosphatase regulatory subunit GADD34; binds protein phosphatase 1 to form a holoenzyme capable of dephosphorylating eIF2-alpha; involved in translational regulation
+			protein_id	ref|YP_009137211.1|
+

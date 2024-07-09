@@ -1,0 +1,9 @@
+>Feature ref|YP_009137202.1|
+1	87	Protein
+			product	envelope glycoprotein N
+			prot_desc	type 1 membrane protein; contains a signal peptide; complexed with envelope glycoprotein M; involved in virion morphogenesis; involved in membrane fusion
+1	87	CDS
+			product	envelope glycoprotein N
+			prot_desc	type 1 membrane protein; contains a signal peptide; complexed with envelope glycoprotein M; involved in virion morphogenesis; involved in membrane fusion
+			protein_id	ref|YP_009137202.1|
+

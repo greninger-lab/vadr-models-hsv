@@ -1,0 +1,23 @@
+>Feature ref|YP_009137182.1|
+1	1240	Protein
+			product	DNA polymerase catalytic subunit
+			prot_desc	involved in DNA replication
+			EC_number	2.7.7.7
+361	901	Region
+			region	POLBc
+			note	DNA polymerase type-B family
+			db_xref	CDD:214691
+608	1181	Region
+			region	DNA_pol_B
+			note	DNA polymerase family B
+			db_xref	CDD:395085
+1205	1240	Region
+			region	DNAPolymera_Pol
+			note	DNA polymerase catalytic subunit Pol
+			db_xref	CDD:314473
+1	1240	CDS
+			product	DNA polymerase catalytic subunit
+			prot_desc	involved in DNA replication
+			EC_number	2.7.7.7
+			protein_id	ref|YP_009137182.1|
+

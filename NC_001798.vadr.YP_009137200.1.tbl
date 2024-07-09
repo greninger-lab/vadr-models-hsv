@@ -1,0 +1,17 @@
+>Feature ref|YP_009137200.1|
+1	490	Protein
+			product	transactivating tegument protein VP16
+			prot_desc	transactivates immediate early genes; involved in gene regulation; involved in virion morphogenesis
+42	377	Region
+			region	Alpha_TIF
+			note	Alpha trans-inducing protein (Alpha-TIF)
+			db_xref	CDD:351997
+465	490	Region
+			region	HSV_VP16_C
+			note	Herpes simplex virus virion protein 16 C terminal
+			db_xref	CDD:403392
+1	490	CDS
+			product	transactivating tegument protein VP16
+			prot_desc	transactivates immediate early genes; involved in gene regulation; involved in virion morphogenesis
+			protein_id	ref|YP_009137200.1|
+

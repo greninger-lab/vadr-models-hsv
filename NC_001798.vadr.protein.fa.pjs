@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "NC_001798.vadr.protein.fa",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "/data/hsv_vadr_annotation/vadr_hsv/NC_001798//NC_001798.vadr.protein.fa",
+  "number-of-letters": 46027,
+  "number-of-sequences": 85,
+  "last-updated": "2024-06-14T00:27:00",
+  "number-of-volumes": 1,
+  "bytes-total": 93046,
+  "bytes-to-cache": 46969,
+  "files": [
+    "NC_001798.vadr.protein.fa.pdb",
+    "NC_001798.vadr.protein.fa.phr",
+    "NC_001798.vadr.protein.fa.pin",
+    "NC_001798.vadr.protein.fa.pot",
+    "NC_001798.vadr.protein.fa.psq",
+    "NC_001798.vadr.protein.fa.ptf",
+    "NC_001798.vadr.protein.fa.pto"
+  ]
+}

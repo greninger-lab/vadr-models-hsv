@@ -1,0 +1,18 @@
+>Feature ref|YP_009137177.1|
+1	637	Protein
+			product	capsid maturation protease
+			prot_desc	serine protease (N-terminal region); minor scaffold protein (remainder of protein, clipped near C terminus); involved in capsid morphogenesis
+			EC_number	3.4.21.97
+			prot_note	VP24, VP21
+			note	VP24, VP21
+37	367	Region
+			region	Peptidase_S21
+			note	Assemblin (Peptidase family S21)
+			db_xref	CDD:330753
+1	637	CDS
+			product	capsid maturation protease
+			prot_desc	serine protease (N-terminal region); minor scaffold protein (remainder of protein, clipped near C terminus); involved in capsid morphogenesis
+			EC_number	3.4.21.97
+			prot_note	VP24, VP21
+			protein_id	ref|YP_009137177.1|
+

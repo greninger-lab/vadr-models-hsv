@@ -1,0 +1,13 @@
+>Feature ref|YP_009137222.1|
+1	89	Protein
+			product	membrane protein US9
+			prot_desc	type 2 membrane protein; tegument-associated; localizes envelope proteins; involved in axonal transport
+30	88	Region
+			region	Herpes_US9
+			note	Alphaherpesvirus tegument protein US9
+			db_xref	CDD:283682
+1	89	CDS
+			product	membrane protein US9
+			prot_desc	type 2 membrane protein; tegument-associated; localizes envelope proteins; involved in axonal transport
+			protein_id	ref|YP_009137222.1|
+

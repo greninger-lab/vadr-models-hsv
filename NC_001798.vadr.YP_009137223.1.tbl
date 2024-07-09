@@ -1,0 +1,15 @@
+>Feature ref|YP_009137223.1|
+1	302	Protein
+			product	virion protein US10
+19	>154	Region
+			region	dnaA
+			note	chromosomal replication initiator protein DnaA
+			db_xref	CDD:455861
+139	>294	Region
+			region	Gene66
+			note	Gene 66 (IR5) protein
+			db_xref	CDD:366894
+1	302	CDS
+			product	virion protein US10
+			protein_id	ref|YP_009137223.1|
+

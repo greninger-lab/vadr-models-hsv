@@ -1,0 +1,13 @@
+>Feature ref|YP_009137155.1|
+1	201	Protein
+			product	nuclear protein UL4
+			prot_desc	colocalizes with regulatory protein ICP22 and nuclear protein UL3 in small, dense nuclear bodies
+5	189	Region
+			region	Herpes_UL4
+			note	Herpesvirus UL4 family
+			db_xref	CDD:281294
+1	201	CDS
+			product	nuclear protein UL4
+			prot_desc	colocalizes with regulatory protein ICP22 and nuclear protein UL3 in small, dense nuclear bodies
+			protein_id	ref|YP_009137155.1|
+

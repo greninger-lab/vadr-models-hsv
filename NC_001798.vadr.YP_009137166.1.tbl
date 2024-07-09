@@ -1,0 +1,13 @@
+>Feature ref|YP_009137166.1|
+1	734	Protein
+			product	DNA packaging terminase subunit 1
+			prot_desc	contains an ATPase domain; involved in DNA encapsidation
+1	732	Region
+			region	PHA03368
+			note	DNA packaging terminase subunit 1; Provisional
+			db_xref	CDD:223060
+1	734	CDS
+			product	DNA packaging terminase subunit 1
+			prot_desc	contains an ATPase domain; involved in DNA encapsidation
+			protein_id	ref|YP_009137166.1|
+

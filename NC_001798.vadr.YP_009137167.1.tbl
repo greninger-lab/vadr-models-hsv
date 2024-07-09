@@ -1,0 +1,14 @@
+>Feature ref|YP_009137167.1|
+1	372	Protein
+			product	tegument protein UL16
+			prot_desc	possibly involved in virion morphogenesis
+31	357	Region
+			region	PHA03349
+			note	tegument protein UL16; Provisional
+			db_xref	CDD:177590
+1	372	CDS
+			product	tegument protein UL16
+			prot_desc	possibly involved in virion morphogenesis
+			protein_id	ref|YP_009137167.1|
+			note	CTG initiation codon
+

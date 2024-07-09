@@ -1,0 +1,1155 @@
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.1.hmm
+# name (the single) HMM:            NC_001798/10010..11014:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/10010..11014:+     1   334   334     0.38  0.593 
+
+# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.10
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.2.hmm
+# name (the single) HMM:            NC_001798/101634..99466:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/101634..99466:-     1   722   722     0.39  0.588 
+
+# CPU time: 0.18u 0.00s 00:00:00.18 Elapsed: 00:00:00.18
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.3.hmm
+# name (the single) HMM:            NC_001798/103809..101719:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/103809..101719:-     1   696   696     0.39  0.587 
+
+# CPU time: 0.17u 0.00s 00:00:00.17 Elapsed: 00:00:00.17
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.4.hmm
+# name (the single) HMM:            NC_001798/105802..104330:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/105802..104330:-     1   490   490     0.39  0.594 
+
+# CPU time: 0.12u 0.00s 00:00:00.12 Elapsed: 00:00:00.12
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.5.hmm
+# name (the single) HMM:            NC_001798/107185..106283:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/107185..106283:-     1   300   300     0.40  0.594 
+
+# CPU time: 0.08u 0.00s 00:00:00.08 Elapsed: 00:00:00.08
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.6.hmm
+# name (the single) HMM:            NC_001798/107787..107524:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/107787..107524:-     1    87    87     0.42  0.654 
+
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.7.hmm
+# name (the single) HMM:            NC_001798/107795..108904:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/107795..108904:+     1   369   369     0.39  0.595 
+
+# CPU time: 0.10u 0.00s 00:00:00.10 Elapsed: 00:00:00.10
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.8.hmm
+# name (the single) HMM:            NC_001798/109842..109108:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/109842..109108:-     1   244   244     0.41  0.589 
+
+# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.07
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.9.hmm
+# name (the single) HMM:            NC_001798/109910..113110:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/109910..113110:+     1  1066  1066     0.39  0.589 
+
+# CPU time: 0.26u 0.00s 00:00:00.26 Elapsed: 00:00:00.26
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.10.hmm
+# name (the single) HMM:            NC_001798/11102..11770:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/11102..11770:+     1   222   222     0.39  0.593 
+
+# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.07
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.11.hmm
+# name (the single) HMM:            NC_001798/113062..114078:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/113062..114078:+     1   338   338     0.37  0.585 
+
+# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.09
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.12.hmm
+# name (the single) HMM:            NC_001798/114624..116162:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/114624..116162:+     1   512   512     0.39  0.590 
+
+# CPU time: 0.13u 0.00s 00:00:00.13 Elapsed: 00:00:00.13
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.13.hmm
+# name (the single) HMM:            NC_001798/116377..116937:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/116377..116937:+     1   186   186     0.39  0.596 
+
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.05
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.14.hmm
+# name (the single) HMM:            NC_001798/117817..117110:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/117817..117110:-     1   235   235     0.38  0.590 
+
+# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.07
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.15.hmm
+# name (the single) HMM:            NC_001798/125018..124944:-,124533..123858:-,123676..121926:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/125018..124944:-,124533..123858:-,123676..121926:-     1   833   833     0.40  0.592 
+
+# CPU time: 0.20u 0.00s 00:00:00.20 Elapsed: 00:00:00.20
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.16.hmm
+# name (the single) HMM:            NC_001798/12575..11970:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/12575..11970:-     1   201   201     0.39  0.590 
+
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.06
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.17.hmm
+# name (the single) HMM:            NC_001798/126881..126387:-,126232..125942:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/126881..126387:-,126232..125942:-     1   261   261     0.39  0.593 
+
+# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.07
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.18.hmm
+# name (the single) HMM:            NC_001798/132102..128146:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/132102..128146:-     1  1318  1318     0.39  0.594 
+
+# CPU time: 0.31u 0.00s 00:00:00.31 Elapsed: 00:00:00.31
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.19.hmm
+# name (the single) HMM:            NC_001798/133741..134985:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/133741..134985:+     1   414   414     0.39  0.593 
+
+# CPU time: 0.11u 0.00s 00:00:00.11 Elapsed: 00:00:00.11
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.20.hmm
+# name (the single) HMM:            NC_001798/136043..135168:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/136043..135168:-     1   291   291     0.37  0.596 
+
+# CPU time: 0.08u 0.00s 00:00:00.08 Elapsed: 00:00:00.08
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.21.hmm
+# name (the single) HMM:            NC_001798/136329..137774:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/136329..137774:+     1   481   481     0.38  0.589 
+
+# CPU time: 0.12u 0.00s 00:00:00.12 Elapsed: 00:00:00.12
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.22.hmm
+# name (the single) HMM:            NC_001798/137882..139981:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/137882..139981:+     1   699   699     0.39  0.590 
+
+# CPU time: 0.17u 0.00s 00:00:00.17 Elapsed: 00:00:00.17
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.23.hmm
+# name (the single) HMM:            NC_001798/140291..140569:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/140291..140569:+     1    92    92     0.39  0.614 
+
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.24.hmm
+# name (the single) HMM:            NC_001798/141016..142197:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/141016..142197:+     1   393   393     0.38  0.586 
+
+# CPU time: 0.11u 0.00s 00:00:00.11 Elapsed: 00:00:00.12
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.25.hmm
+# name (the single) HMM:            NC_001798/142399..143517:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/142399..143517:+     1   372   372     0.39  0.587 
+
+# CPU time: 0.10u 0.00s 00:00:00.10 Elapsed: 00:00:00.10
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.26.hmm
+# name (the single) HMM:            NC_001798/143840..145477:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/143840..145477:+     1   545   545     0.38  0.591 
+
+# CPU time: 0.14u 0.00s 00:00:00.14 Elapsed: 00:00:00.14
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.27.hmm
+# name (the single) HMM:            NC_001798/145326..145766:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/145326..145766:+     1   146   146     0.39  0.593 
+
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.28.hmm
+# name (the single) HMM:            NC_001798/145866..146135:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/145866..146135:+     1    89    89     0.43  0.646 
+
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.29.hmm
+# name (the single) HMM:            NC_001798/147531..146623:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/147531..146623:-     1   302   302     0.37  0.586 
+
+# CPU time: 0.08u 0.00s 00:00:00.08 Elapsed: 00:00:00.08
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.30.hmm
+# name (the single) HMM:            NC_001798/147697..147242:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/147697..147242:-     1   151   151     0.38  0.586 
+
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.04
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.31.hmm
+# name (the single) HMM:            NC_001798/148033..147773:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/148033..147773:-     1    86    86     0.43  0.659 
+
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.32.hmm
+# name (the single) HMM:            NC_001798/149640..153596:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/149640..153596:+     1  1318  1318     0.39  0.594 
+
+# CPU time: 0.32u 0.00s 00:00:00.32 Elapsed: 00:00:00.32
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.33.hmm
+# name (the single) HMM:            NC_001798/15286..17322:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/15286..17322:+     1   678   678     0.39  0.590 
+
+# CPU time: 0.17u 0.00s 00:00:00.17 Elapsed: 00:00:00.17
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.34.hmm
+# name (the single) HMM:            NC_001798/15287..12642:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/15287..12642:-     1   881   881     0.39  0.594 
+
+# CPU time: 0.21u 0.00s 00:00:00.21 Elapsed: 00:00:00.21
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.35.hmm
+# name (the single) HMM:            NC_001798/17297..18187:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/17297..18187:+     1   296   296     0.38  0.594 
+
+# CPU time: 0.08u 0.00s 00:00:00.08 Elapsed: 00:00:00.08
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.36.hmm
+# name (the single) HMM:            NC_001798/20703..18445:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/20703..18445:-     1   752   752     0.38  0.586 
+
+# CPU time: 0.18u 0.00s 00:00:00.18 Elapsed: 00:00:00.18
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.37.hmm
+# name (the single) HMM:            NC_001798/2303..2377:+,2785..3463:+,3645..5395:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/2303..2377:+,2785..3463:+,3645..5395:+     1   834   834     0.40  0.592 
+
+# CPU time: 0.20u 0.00s 00:00:00.20 Elapsed: 00:00:00.20
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.38.hmm
+# name (the single) HMM:            NC_001798/23247..24650:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/23247..24650:+     1   467   467     0.39  0.590 
+
+# CPU time: 0.12u 0.00s 00:00:00.12 Elapsed: 00:00:00.12
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.39.hmm
+# name (the single) HMM:            NC_001798/23368..20753:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/23368..20753:-     1   871   871     0.39  0.593 
+
+# CPU time: 0.21u 0.00s 00:00:00.21 Elapsed: 00:00:00.21
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.40.hmm
+# name (the single) HMM:            NC_001798/25138..24848:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/25138..24848:-     1    96    96     0.39  0.599 
+
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.41.hmm
+# name (the single) HMM:            NC_001798/26916..25054:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/26916..25054:-     1   620   620     0.38  0.587 
+
+# CPU time: 0.15u 0.00s 00:00:00.15 Elapsed: 00:00:00.15
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.42.hmm
+# name (the single) HMM:            NC_001798/28513..26957:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/28513..26957:-     1   518   518     0.39  0.592 
+
+# CPU time: 0.13u 0.00s 00:00:00.13 Elapsed: 00:00:00.13
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.43.hmm
+# name (the single) HMM:            NC_001798/28926..28267:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/28926..28267:-     1   219   219     0.40  0.593 
+
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.06
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.44.hmm
+# name (the single) HMM:            NC_001798/29007..30035:+,33635..34810:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/29007..30035:+,33635..34810:+     1   734   734     0.39  0.592 
+
+# CPU time: 0.18u 0.00s 00:00:00.18 Elapsed: 00:00:00.18
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.45.hmm
+# name (the single) HMM:            NC_001798/31299..30181:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/31299..30181:-     1   372   372     0.37  0.589 
+
+# CPU time: 0.10u 0.00s 00:00:00.10 Elapsed: 00:00:00.10
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.46.hmm
+# name (the single) HMM:            NC_001798/33509..31401:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/33509..31401:-     1   702   702     0.39  0.589 
+
+# CPU time: 0.17u 0.00s 00:00:00.17 Elapsed: 00:00:00.17
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.47.hmm
+# name (the single) HMM:            NC_001798/36109..35153:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/36109..35153:-     1   318   318     0.39  0.590 
+
+# CPU time: 0.08u 0.00s 00:00:00.08 Elapsed: 00:00:00.09
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.48.hmm
+# name (the single) HMM:            NC_001798/40610..36486:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/40610..36486:-     1  1374  1374     0.39  0.587 
+
+# CPU time: 0.33u 0.00s 00:00:00.33 Elapsed: 00:00:00.33
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.49.hmm
+# name (the single) HMM:            NC_001798/41590..40922:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/41590..40922:-     1   222   222     0.37  0.586 
+
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.06
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.50.hmm
+# name (the single) HMM:            NC_001798/42239..43837:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/42239..43837:+     1   532   532     0.39  0.585 
+
+# CPU time: 0.13u 0.00s 00:00:00.13 Elapsed: 00:00:00.13
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.51.hmm
+# name (the single) HMM:            NC_001798/440..934:+,1089..1379:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/440..934:+,1089..1379:+     1   261   261     0.39  0.593 
+
+# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.07
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.52.hmm
+# name (the single) HMM:            NC_001798/46570..44054:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/46570..44054:-     1   838   838     0.39  0.586 
+
+# CPU time: 0.20u 0.00s 00:00:00.20 Elapsed: 00:00:00.20
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.53.hmm
+# name (the single) HMM:            NC_001798/47941..48786:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/47941..48786:+     1   281   281     0.40  0.593 
+
+# CPU time: 0.08u 0.00s 00:00:00.08 Elapsed: 00:00:00.08
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.54.hmm
+# name (the single) HMM:            NC_001798/48039..46909:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/48039..46909:-     1   376   376     0.39  0.594 
+
+# CPU time: 0.10u 0.00s 00:00:00.10 Elapsed: 00:00:00.10
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.55.hmm
+# name (the single) HMM:            NC_001798/49074..50831:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/49074..50831:+     1   585   585     0.39  0.586 
+
+# CPU time: 0.14u 0.00s 00:00:00.14 Elapsed: 00:00:00.14
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.56.hmm
+# name (the single) HMM:            NC_001798/51065..52978:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/51065..52978:+     1   637   637     0.39  0.595 
+
+# CPU time: 0.16u 0.00s 00:00:00.16 Elapsed: 00:00:00.16
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.57.hmm
+# name (the single) HMM:            NC_001798/51989..52978:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/51989..52978:+     1   329   329     0.39  0.595 
+
+# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.09
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.58.hmm
+# name (the single) HMM:            NC_001798/56152..53438:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/56152..53438:-     1   904   904     0.39  0.594 
+
+# CPU time: 0.22u 0.00s 00:00:00.22 Elapsed: 00:00:00.22
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.59.hmm
+# name (the single) HMM:            NC_001798/58517..56160:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/58517..56160:-     1   785   785     0.39  0.595 
+
+# CPU time: 0.19u 0.00s 00:00:00.19 Elapsed: 00:00:00.19
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.60.hmm
+# name (the single) HMM:            NC_001798/62482..58892:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/62482..58892:-     1  1196  1196     0.39  0.594 
+
+# CPU time: 0.28u 0.00s 00:00:00.28 Elapsed: 00:00:00.29
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.61.hmm
+# name (the single) HMM:            NC_001798/63300..67022:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/63300..67022:+     1  1240  1240     0.38  0.588 
+
+# CPU time: 0.29u 0.00s 00:00:00.28 Elapsed: 00:00:00.30
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.62.hmm
+# name (the single) HMM:            NC_001798/67884..66967:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/67884..66967:-     1   305   305     0.38  0.589 
+
+# CPU time: 0.08u 0.00s 00:00:00.08 Elapsed: 00:00:00.08
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.63.hmm
+# name (the single) HMM:            NC_001798/69672..70064:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/69672..70064:+     1   130   130     0.39  0.590 
+
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.64.hmm
+# name (the single) HMM:            NC_001798/69673..67877:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/69673..67877:-     1   598   598     0.38  0.585 
+
+# CPU time: 0.15u 0.00s 00:00:00.15 Elapsed: 00:00:00.15
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.65.hmm
+# name (the single) HMM:            NC_001798/70154..70984:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/70154..70984:+     1   276   276     0.38  0.596 
+
+# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.08
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.66.hmm
+# name (the single) HMM:            NC_001798/71096..71434:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/71096..71434:+     1   112   112     0.39  0.585 
+
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.67.hmm
+# name (the single) HMM:            NC_001798/80969..71601:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/80969..71601:-     1  3122  3122     0.40  0.596 
+
+# CPU time: 0.73u 0.00s 00:00:00.73 Elapsed: 00:00:00.73
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.68.hmm
+# name (the single) HMM:            NC_001798/84614..81270:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/84614..81270:-     1  1114  1114     0.39  0.585 
+
+# CPU time: 0.27u 0.00s 00:00:00.27 Elapsed: 00:00:00.27
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.69.hmm
+# name (the single) HMM:            NC_001798/85097..86497:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/85097..86497:+     1   466   466     0.39  0.592 
+
+# CPU time: 0.12u 0.00s 00:00:00.12 Elapsed: 00:00:00.12
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.70.hmm
+# name (the single) HMM:            NC_001798/87060..90488:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/87060..90488:+     1  1142  1142     0.39  0.591 
+
+# CPU time: 0.27u 0.00s 00:00:00.27 Elapsed: 00:00:00.27
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.71.hmm
+# name (the single) HMM:            NC_001798/90541..91554:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/90541..91554:+     1   337   337     0.39  0.591 
+
+# CPU time: 0.09u 0.00s 00:00:00.09 Elapsed: 00:00:00.09
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.72.hmm
+# name (the single) HMM:            NC_001798/93311..91833:-
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/93311..91833:-     1   492   492     0.38  0.587 
+
+# CPU time: 0.12u 0.00s 00:00:00.12 Elapsed: 00:00:00.12
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.73.hmm
+# name (the single) HMM:            NC_001798/93805..95217:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/93805..95217:+     1   470   470     0.39  0.586 
+
+# CPU time: 0.12u 0.00s 00:00:00.12 Elapsed: 00:00:00.12
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.74.hmm
+# name (the single) HMM:            NC_001798/9463..10137:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/9463..10137:+     1   224   224     0.38  0.592 
+
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.06
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.75.hmm
+# name (the single) HMM:            NC_001798/95469..96713:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/95469..96713:+     1   414   414     0.38  0.595 
+
+# CPU time: 0.11u 0.00s 00:00:00.11 Elapsed: 00:00:00.11
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.76.hmm
+# name (the single) HMM:            NC_001798/97015..98457:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/97015..98457:+     1   480   480     0.39  0.591 
+
+# CPU time: 0.12u 0.00s 00:00:00.12 Elapsed: 00:00:00.12
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             -
+# output HMM file:                  NC_001798/NC_001798.vadr.77.hmm
+# name (the single) HMM:            NC_001798/98687..99205:+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     NC_001798/98687..99205:+     1   172   172     0.37  0.589 
+
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.05

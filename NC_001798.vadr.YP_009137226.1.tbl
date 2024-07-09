@@ -1,0 +1,13 @@
+>Feature ref|YP_009137226.1|
+1	1318	Protein
+			product	transcriptional regulator ICP4
+			prot_desc	involved in gene regulation
+1	1268	Region
+			region	PHA03307
+			note	transcriptional regulator ICP4; Provisional
+			db_xref	CDD:223039
+1	1318	CDS
+			product	transcriptional regulator ICP4
+			prot_desc	involved in gene regulation
+			protein_id	ref|YP_009137226.1|
+

@@ -1,0 +1,16 @@
+>Feature ref|YP_009137181.1|
+1	1196	Protein
+			product	single-stranded DNA-binding protein
+			prot_desc	contains a zinc-finger; involved in DNA replication; possibly involved in gene regulation
+			prot_note	ICP8
+			note	ICP8
+16	1196	Region
+			region	PHA03362
+			note	single-stranded binding protein UL29; Provisional
+			db_xref	CDD:223056
+1	1196	CDS
+			product	single-stranded DNA-binding protein
+			prot_desc	contains a zinc-finger; involved in DNA replication; possibly involved in gene regulation
+			prot_note	ICP8
+			protein_id	ref|YP_009137181.1|
+

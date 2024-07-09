@@ -1,0 +1,17 @@
+>Feature ref|YP_009137163.1|
+1	620	Protein
+			product	deoxyribonuclease
+			prot_desc	involved in DNA processing
+<8	>97	Region
+			region	PTZ00449
+			note	104 kDa microneme/rhoptry antigen; Provisional
+			db_xref	CDD:185628
+108	608	Region
+			region	PHA03293
+			note	deoxyribonuclease; Provisional
+			db_xref	CDD:223034
+1	620	CDS
+			product	deoxyribonuclease
+			prot_desc	involved in DNA processing
+			protein_id	ref|YP_009137163.1|
+

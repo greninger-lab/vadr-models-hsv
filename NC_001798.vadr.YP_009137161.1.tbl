@@ -1,0 +1,13 @@
+>Feature ref|YP_009137161.1|
+1	467	Protein
+			product	envelope glycoprotein M
+			prot_desc	type 3 membrane protein; 8 transmembrane domains; complexed with envelope glycoprotein N; involved in virion morphogenesis; involved in membrane fusion
+1	434	Region
+			region	PHA03242
+			note	envelope glycoprotein M; Provisional
+			db_xref	CDD:177566
+1	467	CDS
+			product	envelope glycoprotein M
+			prot_desc	type 3 membrane protein; 8 transmembrane domains; complexed with envelope glycoprotein N; involved in virion morphogenesis; involved in membrane fusion
+			protein_id	ref|YP_009137161.1|
+

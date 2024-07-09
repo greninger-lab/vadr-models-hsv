@@ -1,0 +1,145 @@
+# v-build.pl :: build homology model of a single sequence for feature annotation
+# VADR 1.5.1 (Feb 2023)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# date:              Fri Sep  1 14:53:16 2023
+# $VADRBLASTDIR:     /Users/greningerlab/Documents/vadr-install-dir/ncbi-blast/bin
+# $VADREASELDIR:     /Users/greningerlab/Documents/vadr-install-dir/infernal/binaries
+# $VADRINFERNALDIR:  /Users/greningerlab/Documents/vadr-install-dir/infernal/binaries
+# $VADRSCRIPTSDIR:   /Users/greningerlab/Documents/vadr-install-dir/vadr
+#
+# accession/model name:                NC_001798
+# output directory:                    NC_001798
+# forcing directory overwrite:         yes [-f]
+# allow long models > 25Kb in length:  yes [--forcelong]
+# leave intermediate files on disk:    yes [--keep]
+# skip the cmbuild step:               yes [--skipbuild]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Fetching FASTA file                                          ... done. [    4.2 seconds]
+# Parsing FASTA file                                           ... done. [    0.0 seconds]
+# Fetching feature table file                                  ... done. [    3.7 seconds]
+# Parsing feature table file                                   ... done. [    0.0 seconds]
+# Fetching and parsing protein feature table file(s)           ... done. [  298.1 seconds]
+# Pruning data read from GenBank                               ... done. [    0.0 seconds]
+# Reformatting FASTA file to Stockholm file                    ... done. [    0.0 seconds]
+# Building BLAST nucleotide database                           ... done. [    0.6 seconds]
+# Finalizing feature information                               ... done. [    0.0 seconds]
+# Translating CDS                                              ... done. [    0.1 seconds]
+# Building BLAST protein database                              ... done. [    0.5 seconds]
+# Building HMMER protein database                              ... done. [   12.3 seconds]
+# Creating model info file                                     ... done. [    0.0 seconds]
+#
+# Output printed to screen saved in:                                 NC_001798.vadr.log
+# List of executed commands saved in:                                NC_001798.vadr.cmd
+# List and description of all output files saved in:                 NC_001798.vadr.filelist
+# fasta file for NC_001798 saved in:                                 NC_001798.vadr.fa
+# feature table format file for NC_001798 saved in:                  NC_001798.vadr.tbl
+# feature table format file for YP_009137150.1 saved in:             NC_001798.vadr.YP_009137150.1.tbl
+# feature table format file for YP_009137151.1 saved in:             NC_001798.vadr.YP_009137151.1.tbl
+# feature table format file for YP_009137152.1 saved in:             NC_001798.vadr.YP_009137152.1.tbl
+# feature table format file for YP_009137153.1 saved in:             NC_001798.vadr.YP_009137153.1.tbl
+# feature table format file for YP_009137154.1 saved in:             NC_001798.vadr.YP_009137154.1.tbl
+# feature table format file for YP_009137155.1 saved in:             NC_001798.vadr.YP_009137155.1.tbl
+# feature table format file for YP_009137156.1 saved in:             NC_001798.vadr.YP_009137156.1.tbl
+# feature table format file for YP_009137157.1 saved in:             NC_001798.vadr.YP_009137157.1.tbl
+# feature table format file for YP_009137158.1 saved in:             NC_001798.vadr.YP_009137158.1.tbl
+# feature table format file for YP_009137159.1 saved in:             NC_001798.vadr.YP_009137159.1.tbl
+# feature table format file for YP_009137160.1 saved in:             NC_001798.vadr.YP_009137160.1.tbl
+# feature table format file for YP_009137161.1 saved in:             NC_001798.vadr.YP_009137161.1.tbl
+# feature table format file for YP_009137162.1 saved in:             NC_001798.vadr.YP_009137162.1.tbl
+# feature table format file for YP_009137163.1 saved in:             NC_001798.vadr.YP_009137163.1.tbl
+# feature table format file for YP_009137164.1 saved in:             NC_001798.vadr.YP_009137164.1.tbl
+# feature table format file for YP_009137165.1 saved in:             NC_001798.vadr.YP_009137165.1.tbl
+# feature table format file for YP_009137166.1 saved in:             NC_001798.vadr.YP_009137166.1.tbl
+# feature table format file for YP_009137167.1 saved in:             NC_001798.vadr.YP_009137167.1.tbl
+# feature table format file for YP_009137168.1 saved in:             NC_001798.vadr.YP_009137168.1.tbl
+# feature table format file for YP_009137169.1 saved in:             NC_001798.vadr.YP_009137169.1.tbl
+# feature table format file for YP_009137170.1 saved in:             NC_001798.vadr.YP_009137170.1.tbl
+# feature table format file for YP_009137171.1 saved in:             NC_001798.vadr.YP_009137171.1.tbl
+# feature table format file for YP_009137172.1 saved in:             NC_001798.vadr.YP_009137172.1.tbl
+# feature table format file for YP_009137173.1 saved in:             NC_001798.vadr.YP_009137173.1.tbl
+# feature table format file for YP_009137174.1 saved in:             NC_001798.vadr.YP_009137174.1.tbl
+# feature table format file for YP_009137175.1 saved in:             NC_001798.vadr.YP_009137175.1.tbl
+# feature table format file for YP_009137176.1 saved in:             NC_001798.vadr.YP_009137176.1.tbl
+# feature table format file for YP_009137177.1 saved in:             NC_001798.vadr.YP_009137177.1.tbl
+# feature table format file for YP_009137178.1 saved in:             NC_001798.vadr.YP_009137178.1.tbl
+# feature table format file for YP_009137179.1 saved in:             NC_001798.vadr.YP_009137179.1.tbl
+# feature table format file for YP_009137180.1 saved in:             NC_001798.vadr.YP_009137180.1.tbl
+# feature table format file for YP_009137181.1 saved in:             NC_001798.vadr.YP_009137181.1.tbl
+# feature table format file for YP_009137182.1 saved in:             NC_001798.vadr.YP_009137182.1.tbl
+# feature table format file for YP_009137183.1 saved in:             NC_001798.vadr.YP_009137183.1.tbl
+# feature table format file for YP_009137184.1 saved in:             NC_001798.vadr.YP_009137184.1.tbl
+# feature table format file for YP_009137185.1 saved in:             NC_001798.vadr.YP_009137185.1.tbl
+# feature table format file for YP_009137186.1 saved in:             NC_001798.vadr.YP_009137186.1.tbl
+# feature table format file for YP_009137187.1 saved in:             NC_001798.vadr.YP_009137187.1.tbl
+# feature table format file for YP_009137188.1 saved in:             NC_001798.vadr.YP_009137188.1.tbl
+# feature table format file for YP_009137189.1 saved in:             NC_001798.vadr.YP_009137189.1.tbl
+# feature table format file for YP_009137190.1 saved in:             NC_001798.vadr.YP_009137190.1.tbl
+# feature table format file for YP_009137191.1 saved in:             NC_001798.vadr.YP_009137191.1.tbl
+# feature table format file for YP_009137192.1 saved in:             NC_001798.vadr.YP_009137192.1.tbl
+# feature table format file for YP_009137193.1 saved in:             NC_001798.vadr.YP_009137193.1.tbl
+# feature table format file for YP_009137194.1 saved in:             NC_001798.vadr.YP_009137194.1.tbl
+# feature table format file for YP_009137195.1 saved in:             NC_001798.vadr.YP_009137195.1.tbl
+# feature table format file for YP_009137196.1 saved in:             NC_001798.vadr.YP_009137196.1.tbl
+# feature table format file for YP_009137197.1 saved in:             NC_001798.vadr.YP_009137197.1.tbl
+# feature table format file for YP_009137198.1 saved in:             NC_001798.vadr.YP_009137198.1.tbl
+# feature table format file for YP_009137199.1 saved in:             NC_001798.vadr.YP_009137199.1.tbl
+# feature table format file for YP_009137200.1 saved in:             NC_001798.vadr.YP_009137200.1.tbl
+# feature table format file for YP_009137201.1 saved in:             NC_001798.vadr.YP_009137201.1.tbl
+# feature table format file for YP_009137202.1 saved in:             NC_001798.vadr.YP_009137202.1.tbl
+# feature table format file for YP_009137203.1 saved in:             NC_001798.vadr.YP_009137203.1.tbl
+# feature table format file for YP_009137204.1 saved in:             NC_001798.vadr.YP_009137204.1.tbl
+# feature table format file for YP_009137205.1 saved in:             NC_001798.vadr.YP_009137205.1.tbl
+# feature table format file for YP_009137206.1 saved in:             NC_001798.vadr.YP_009137206.1.tbl
+# feature table format file for YP_009137207.1 saved in:             NC_001798.vadr.YP_009137207.1.tbl
+# feature table format file for YP_009137208.1 saved in:             NC_001798.vadr.YP_009137208.1.tbl
+# feature table format file for YP_009137209.1 saved in:             NC_001798.vadr.YP_009137209.1.tbl
+# feature table format file for YP_009137210.1 saved in:             NC_001798.vadr.YP_009137210.1.tbl
+# feature table format file for YP_009137211.1 saved in:             NC_001798.vadr.YP_009137211.1.tbl
+# feature table format file for YP_009137212.1 saved in:             NC_001798.vadr.YP_009137212.1.tbl
+# feature table format file for YP_009137213.1 saved in:             NC_001798.vadr.YP_009137213.1.tbl
+# feature table format file for YP_009137214.1 saved in:             NC_001798.vadr.YP_009137214.1.tbl
+# feature table format file for YP_009137215.1 saved in:             NC_001798.vadr.YP_009137215.1.tbl
+# feature table format file for YP_009137216.1 saved in:             NC_001798.vadr.YP_009137216.1.tbl
+# feature table format file for YP_009137217.1 saved in:             NC_001798.vadr.YP_009137217.1.tbl
+# feature table format file for YP_009137218.1 saved in:             NC_001798.vadr.YP_009137218.1.tbl
+# feature table format file for YP_009137219.1 saved in:             NC_001798.vadr.YP_009137219.1.tbl
+# feature table format file for YP_009137220.1 saved in:             NC_001798.vadr.YP_009137220.1.tbl
+# feature table format file for YP_009137221.1 saved in:             NC_001798.vadr.YP_009137221.1.tbl
+# feature table format file for YP_009137222.1 saved in:             NC_001798.vadr.YP_009137222.1.tbl
+# feature table format file for YP_009137223.1 saved in:             NC_001798.vadr.YP_009137223.1.tbl
+# feature table format file for YP_009137224.1 saved in:             NC_001798.vadr.YP_009137224.1.tbl
+# feature table format file for YP_009137225.1 saved in:             NC_001798.vadr.YP_009137225.1.tbl
+# feature table format file for YP_009137226.1 saved in:             NC_001798.vadr.YP_009137226.1.tbl
+# Stockholm alignment file for NC_001798 saved in:                   NC_001798.vadr.stk
+# nucleotide blastn db fasta sequence file for NC_001798 saved in:   NC_001798.vadr.fa
+# BLAST db .nhr file for NC_001798 saved in:                         NC_001798.vadr.fa.nhr
+# BLAST db .nin file for NC_001798 saved in:                         NC_001798.vadr.fa.nin
+# BLAST db .nsq file for NC_001798 saved in:                         NC_001798.vadr.fa.nsq
+# BLAST db .ndb file for NC_001798 saved in:                         NC_001798.vadr.fa.ndb
+# BLAST db .not file for NC_001798 saved in:                         NC_001798.vadr.fa.not
+# BLAST db .ntf file for NC_001798 saved in:                         NC_001798.vadr.fa.ntf
+# BLAST db .nto file for NC_001798 saved in:                         NC_001798.vadr.fa.nto
+# fasta sequence file for CDS from NC_001798 saved in:               NC_001798.vadr.cds.fa
+# fasta sequence file for translated CDS from NC_001798 saved in:    NC_001798.vadr.protein.fa
+# BLAST db .phr file for NC_001798 saved in:                         NC_001798.vadr.protein.fa.phr
+# BLAST db .pin file for NC_001798 saved in:                         NC_001798.vadr.protein.fa.pin
+# BLAST db .psq file for NC_001798 saved in:                         NC_001798.vadr.protein.fa.psq
+# BLAST db .pdb file for NC_001798 saved in:                         NC_001798.vadr.protein.fa.pdb
+# BLAST db .pot file for NC_001798 saved in:                         NC_001798.vadr.protein.fa.pot
+# BLAST db .ptf file for NC_001798 saved in:                         NC_001798.vadr.protein.fa.ptf
+# BLAST db .pto file for NC_001798 saved in:                         NC_001798.vadr.protein.fa.pto
+# HMMER model db file for NC_001798 saved in:                        NC_001798.vadr.protein.hmm
+# hmmbuild build output (concatenated) saved in:                     NC_001798.vadr.protein.hmmbuild
+# binary HMM and p7 HMM filter file saved in:                        NC_001798.vadr.protein.hmm.h3m
+# SSI index for binary HMM file saved in:                            NC_001798.vadr.protein.hmm.h3i
+# optimized p7 HMM filters (MSV part) saved in:                      NC_001798.vadr.protein.hmm.h3f
+# optimized p7 HMM filters (remainder) saved in:                     NC_001798.vadr.protein.hmm.h3p
+# hmmpress output file saved in:                                     NC_001798.vadr.hmmpress
+# VADR 'model info' format file for NC_001798 saved in:              NC_001798.vadr.minfo
+#
+# All output files created in directory ./NC_001798/
+#
+# Elapsed time:  00:05:19.47
+#                hh:mm:ss
+# 
+[ok]

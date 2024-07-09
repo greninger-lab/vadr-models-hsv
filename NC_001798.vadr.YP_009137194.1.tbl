@@ -1,0 +1,13 @@
+>Feature ref|YP_009137194.1|
+1	470	Protein
+			product	DNA polymerase processivity subunit
+			prot_desc	dsDNA-binding protein; involved in DNA replication
+31	168	Region
+			region	Herpes_UL42
+			note	DNA polymerase processivity factor (UL42)
+			db_xref	CDD:396730
+1	470	CDS
+			product	DNA polymerase processivity subunit
+			prot_desc	dsDNA-binding protein; involved in DNA replication
+			protein_id	ref|YP_009137194.1|
+

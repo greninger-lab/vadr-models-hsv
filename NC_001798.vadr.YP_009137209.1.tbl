@@ -1,0 +1,14 @@
+>Feature ref|YP_009137209.1|
+1	235	Protein
+			product	membrane protein UL56
+			prot_desc	type 2 membrane protein; possibly involved in vesicular trafficking
+1	197	Region
+			region	Herpes_UL56
+			note	Herpesvirus UL56 protein
+			db_xref	CDD:398298
+1	235	CDS
+			product	membrane protein UL56
+			prot_desc	type 2 membrane protein; possibly involved in vesicular trafficking
+			protein_id	ref|YP_009137209.1|
+			note	UL56 family
+

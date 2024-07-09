@@ -1,0 +1,16 @@
+>Feature ref|YP_009137190.1|
+1	466	Protein
+			product	capsid triplex subunit 1
+			prot_desc	complexed 1:2 with capsid triplex subunit 2 to connect capsid hexons and pentons; involved in capsid morphogenesis
+			prot_note	VP19C
+			note	VP19C
+18	466	Region
+			region	PHA03261
+			note	Capsid triplex subunit 1; Provisional
+			db_xref	CDD:223026
+1	466	CDS
+			product	capsid triplex subunit 1
+			prot_desc	complexed 1:2 with capsid triplex subunit 2 to connect capsid hexons and pentons; involved in capsid morphogenesis
+			prot_note	VP19C
+			protein_id	ref|YP_009137190.1|
+

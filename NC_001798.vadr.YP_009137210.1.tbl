@@ -1,0 +1,28 @@
+>Feature ref|YP_009137210.1|
+1	833	Protein
+			product	ubiquitin E3 ligase ICP0
+			prot_desc	contains a RING finger; disrupts ND10; proteasome-dependent degradation of several cellular proteins; involved in gene regulation; involved in cellular protein degradation; involved in latency
+123	175	Region
+			region	RING-HC_EHV1-like
+			note	RING finger, HC subclass, found in Equid alphaherpesvirus 1 (Equine herpesvirus 1/EHV-1) regulatory protein and similar proteins
+			db_xref	CDD:438492
+<124	241	Region
+			region	HRD1
+			note	HRD ubiquitin ligase complex, ER membrane component [Posttranslational modification, protein turnover, chaperones]
+			db_xref	CDD:227568
+125	125	Site
+128	128
+143	143
+145	145
+148	148
+151	151
+162	162
+165	165
+			site_type	other
+			note	Zn binding site [ion binding]
+			db_xref	CDD:438492
+1	833	CDS
+			product	ubiquitin E3 ligase ICP0
+			prot_desc	contains a RING finger; disrupts ND10; proteasome-dependent degradation of several cellular proteins; involved in gene regulation; involved in cellular protein degradation; involved in latency
+			protein_id	ref|YP_009137210.1|
+

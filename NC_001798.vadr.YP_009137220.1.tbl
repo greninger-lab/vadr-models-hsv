@@ -1,0 +1,14 @@
+>Feature ref|YP_009137220.1|
+1	545	Protein
+			product	envelope glycoprotein E
+			prot_desc	type 1 membrane protein; contains a signal peptide; complexed with envelope glycoprotein I to form an Fc-receptor; involved in cell-to-cell spread
+1	545	Region
+			region	PHA03282
+			note	envelope glycoprotein E; Provisional
+			db_xref	CDD:165539
+1	545	CDS
+			product	envelope glycoprotein E
+			prot_desc	type 1 membrane protein; contains a signal peptide; complexed with envelope glycoprotein I to form an Fc-receptor; involved in cell-to-cell spread
+			protein_id	ref|YP_009137220.1|
+			note	gE family
+

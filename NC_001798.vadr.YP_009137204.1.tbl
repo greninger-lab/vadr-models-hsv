@@ -1,0 +1,17 @@
+>Feature ref|YP_009137204.1|
+1	244	Protein
+			product	tegument protein UL51
+			prot_desc	involved in virion morphogenesis
+8	165	Region
+			region	Herpes_UL51
+			note	Herpesvirus UL51 protein
+			db_xref	CDD:282408
+<168	>239	Region
+			region	PRK14965
+			note	DNA polymerase III subunits gamma and tau; Provisional
+			db_xref	CDD:237871
+1	244	CDS
+			product	tegument protein UL51
+			prot_desc	involved in virion morphogenesis
+			protein_id	ref|YP_009137204.1|
+

@@ -1,0 +1,13 @@
+>Feature ref|YP_009137214.1|
+1	291	Protein
+			product	virion protein US2
+			prot_desc	possibly envelope-associated; interacts with cytokeratin 18
+110	246	Region
+			region	US2
+			note	US2 family
+			db_xref	CDD:396851
+1	291	CDS
+			product	virion protein US2
+			prot_desc	possibly envelope-associated; interacts with cytokeratin 18
+			protein_id	ref|YP_009137214.1|
+

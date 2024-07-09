@@ -1,0 +1,14 @@
+>Feature ref|YP_009137188.1|
+1	3122	Protein
+			product	large tegument protein
+			prot_desc	complexed with tegument protein UL37; ubiquitin-specific protease (N-terminal region); involved in capsid transport
+11	3122	Region
+			region	PHA03247
+			note	large tegument protein UL36; Provisional
+			db_xref	CDD:223021
+1	3122	CDS
+			product	large tegument protein
+			prot_desc	complexed with tegument protein UL37; ubiquitin-specific protease (N-terminal region); involved in capsid transport
+			protein_id	ref|YP_009137188.1|
+			note	VP1/2
+

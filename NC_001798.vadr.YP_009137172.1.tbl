@@ -1,0 +1,13 @@
+>Feature ref|YP_009137172.1|
+1	532	Protein
+			product	tegument protein UL21
+			prot_desc	interacts with microtubules; involved in virion morphogenesis
+1	532	Region
+			region	PHA03348
+			note	tegument protein UL21; Provisional
+			db_xref	CDD:177589
+1	532	CDS
+			product	tegument protein UL21
+			prot_desc	interacts with microtubules; involved in virion morphogenesis
+			protein_id	ref|YP_009137172.1|
+

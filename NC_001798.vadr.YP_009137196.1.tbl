@@ -1,0 +1,13 @@
+>Feature ref|YP_009137196.1|
+1	480	Protein
+			product	envelope glycoprotein C
+			prot_desc	type 1 membrane protein; contains a signal peptide; binds cell surface heparan sulphate; binds complement C3b to block neutralization; involved in cell attachment
+1	480	Region
+			region	PHA03270
+			note	envelope glycoprotein C; Provisional
+			db_xref	CDD:165528
+1	480	CDS
+			product	envelope glycoprotein C
+			prot_desc	type 1 membrane protein; contains a signal peptide; binds cell surface heparan sulphate; binds complement C3b to block neutralization; involved in cell attachment
+			protein_id	ref|YP_009137196.1|
+

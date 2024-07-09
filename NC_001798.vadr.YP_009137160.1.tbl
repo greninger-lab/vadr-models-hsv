@@ -1,0 +1,13 @@
+>Feature ref|YP_009137160.1|
+1	871	Protein
+			product	DNA replication origin-binding helicase
+			prot_desc	involved in DNA replication
+48	864	Region
+			region	Herpes_ori_bp
+			note	Origin of replication binding protein
+			db_xref	CDD:280546
+1	871	CDS
+			product	DNA replication origin-binding helicase
+			prot_desc	involved in DNA replication
+			protein_id	ref|YP_009137160.1|
+

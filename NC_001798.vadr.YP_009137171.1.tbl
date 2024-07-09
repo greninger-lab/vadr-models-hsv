@@ -1,0 +1,13 @@
+>Feature ref|YP_009137171.1|
+1	222	Protein
+			product	envelope protein UL20
+			prot_desc	type 3 membrane protein; 4 transmembrane domains; involved in virion morphogenesis; involved in membrane fusion
+42	217	Region
+			region	Herpes_UL20
+			note	Herpesvirus egress protein UL20
+			db_xref	CDD:282411
+1	222	CDS
+			product	envelope protein UL20
+			prot_desc	type 3 membrane protein; 4 transmembrane domains; involved in virion morphogenesis; involved in membrane fusion
+			protein_id	ref|YP_009137171.1|
+

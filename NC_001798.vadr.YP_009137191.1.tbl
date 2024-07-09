@@ -1,0 +1,15 @@
+>Feature ref|YP_009137191.1|
+1	1142	Protein
+			product	ribonucleotide reductase subunit 1
+			prot_desc	involved in nucleotide metabolism
+			EC_number	1.17.4.1
+505	1121	Region
+			region	RNR_PFL
+			note	Ribonucleotide reductase and Pyruvate formate lyase
+			db_xref	CDD:453898
+1	1142	CDS
+			product	ribonucleotide reductase subunit 1
+			prot_desc	involved in nucleotide metabolism
+			EC_number	1.17.4.1
+			protein_id	ref|YP_009137191.1|
+
