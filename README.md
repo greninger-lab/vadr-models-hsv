@@ -4,10 +4,6 @@
 
 ## [HSV-2 VADR model](#hsv2model)
 
-## [Example annotation of HSV-2 sequences](#example)
- * [How to interpret VADR alert and error messages](#howtointerpret)
- * [Explanation of options used in example annotation](#exampleoptions)
-
 ## [Additional VADR documentation](#docs)
 
 ## [References](#reference)
@@ -26,9 +22,9 @@ Steps for using VADR for HSV-2 annotation:
    [quay](https://quay.io/repository/staphb/vadr?tab=tags). A brief
    [README for the docker image is here](https://github.com/StaPH-B/docker-builds/tree/master/vadr/1.6.3-hav-flu2).
  
-2. Download the latest HSV-2 VADR model from the top of this page
-   (click button "Code" > "Download ZIP"). Note the path to the directory name
-   created (`<mpxv-models-dir-path>`) for step 4.
+2. Clone the latest HSV-2 VADR model from this repository (current release v1.0). 
+   git clone git@github.com:greninger-lab/vadr-models-hsv2.git
+   Note the path to the directory name created (`<hsv2-models-dir-path>`) for step 4.
 
 4. <a name="trim">Remove terminal ambiguous nucleotides from your
    input fasta sequence file using the `fasta-trim-terminal-ambigs.pl`
@@ -43,7 +39,7 @@ $VADRSCRIPTSDIR/miniscripts/fasta-trim-terminal-ambigs.pl --minlen 50 --maxlen 1
 ```        
 
 4. Run the `v-annotate.pl` program on an input trimmed fasta file with
-   MPXV sequences using the recommended command and options
+   HSV-2 sequences using the recommended command and options
    below (the command is long so you will likely have to scroll to the right to view the entire command).
 
    ***NOTE: The following command runs multithreaded on up to 4 CPUs,
@@ -54,8 +50,44 @@ $VADRSCRIPTSDIR/miniscripts/fasta-trim-terminal-ambigs.pl --minlen 50 --maxlen 1
    incompatible with `-p`.***
 
 ```
-v-annotate.pl --split --cpu 4 -s --glsearch -r --alt_pass dupregin,discontn,indfstrn,indfstrp --r_lowsimok --nmiscftrthr 10 -f --keep --mdir <mpxv-models-dir-path> <fasta-file-to-annotate> <output-directory-to-create>
+v-annotate.pl --split --cpu 4 -s --glsearch -r --alt_pass dupregin,discontn,indfstrn,indfstrp --r_lowsimok --nmiscftrthr 10 -f --keep --mkey NC_001798 --mdir <hsv2-models-dir-path> <fasta-file-to-annotate> <output-directory-to-create>
 ```
+
+5. After running the `v-annotate.pl` command in step 4, there will be a number of files
+   generated in the `<output-directory-to-create>`. Among these files, there are 5-column
+   tab-delimited feature table files that end with the suffix `.tbl`. There is a separate
+   file for passing (`XXXXX.vadr.pass.tbl`) and failing (`XXXXX.vadr.fail.tbl`) sequences.
+   The format of the `.tbl` files is described here:
+   https://www.ncbi.nlm.nih.gov/genbank/feature_table/
+
+   More information about understanding failures and error alerts can be found in the VADR
+   documentation here: https://github.com/ncbi/vadr/blob/release-1.6.3/documentation/annotate.md
+
+   ***NOTE: misc_not_failure:"1" was added to the features contained in the long terminal
+   and internal repeat regions (e.g., LAT, RL1/neurovirulence protein ICP34.5,
+   RL2/ubiquitin E3 ligase ICP0, RS1/transcriptional regulator ICP4) and to
+   UL36/large tegument protein (see explanation below in the [HSV-2 VADR model](#hsv2model) section).
+   Any error alerts for these features will NOT cause failure, and will NOT be
+   seen in the `XXXXX.vadr.alt.list`. To assess and potentially resolve error alerts
+   and corresponding `misc_feature` entries in the `.tbl` files for these features, one
+   will need to look in the `XXXXX.vadr.alt` file.
+
+   Example `misc_feature` in `XXXXX.vadr.pass.tbl` (snippet):
+   ```
+   ...
+   80437	71102	misc_feature
+			note	similar to large tegument protein
+   ...
+   ```
+   Corresponding alert found in `XXXXX.vadr.alt`:
+   ```
+   1.5.1 SAMPLE1 NC_001798 CDS large_tegument_protein 81 deletinn no DELETION_OF_NT 71637..71637:- 1 72174..72136:- 39 too large of a deletion in nucleotide-based alignment of CDS feature [39>27]
+   1.5.2 SAMPLE1 NC_001798 CDS large_tegument_protein 81 deletinp no DELETION_OF_NT 71636..71636:- 1 72173..72135:- 39 too large of a deletion in protein-based alignment [39>27]
+   ```
+   In this case, if one is confident in the sequence/assembly for the `CDS large_tegument_protein`,
+   the deletinn & deletinp alerts can be resolved by adding `--nmaxdel 39 --xmaxdel 39` command line
+   options to the `v-annotate.pl` command in step 4. A list of additional command line options for
+   controlling alert thresholds can be found [here](https://github.com/ncbi/vadr/blob/release-1.6.3/documentation/annotate.md#v-annotatepl-options-for-controlling-thresholds-related-to-alerts-).
 
 ---
 ## <a name="hsv2model"></a>HSV-2 VADR model
@@ -69,7 +101,6 @@ This model was initially created using the following command:
 ```
 v-build.pl --forcelong --skipbuild -f --keep NC_001798 NC_001798
 ```
-Notes about the model:
 Due to sequencing and assembly difficulties in the long terminal and 
 internal repeat regions of the HSV-2 genome, low similarity range 
 exceptions were added in the MODEL entry in the .minfo file. The 
@@ -85,6 +116,13 @@ misc_not_failure:"1" was also added to the large (9.5k) UL36 gene
 and CDS features due to significant variation seen in the published genomes.
 
 An explanation of "misc_not_failure" can be found [here](https://github.com/ncbi/vadr/blob/vadr-1.6.3/documentation/annotate.md#mnf).
+
+Additionally, using the available HSV-2 genomes in GenBank (as of 5/2024), 
+verified alternative features were added to the model. These 
+alternative features were identified and confirmed by mapping reads 
+available in the SRA or identifying common alternatives found in multiple 
+genomes (or both). 
+
 
 ---
 ## <a name="example">Example annotation of HSV-2 sequences
@@ -104,7 +142,7 @@ An explanation of "misc_not_failure" can be found [here](https://github.com/ncbi
 |`--r_lowsimxd 100` | for `--r_lowsimok`, LOW_SIMILARITY* errors will not be reported only for low similarity regions in which the difference in expected length compared to the model RefSeq is at most 100nt |
 | `--alt_pass discont,dupregin` | specify that discontn and dupregion alerts that occur due to repetitive regions, which are common in HSV-2 sequences, do NOT cause a sequence to fail |
 | `--s_overhang 150` | specify that the number of nucleotides overlap between the seed and flanking regions aligned with glsearch be 150 nt |
-| `--mdir /usr/local/vadr-models-hsv2` | specify that the models to use are in directory /usr/local/vadr-models-hsv2 |
+| `--mdir /path/to/vadr-models-hsv2/hsv2` | specify that the models to use are in directory /path/to/vadr-models-hsv2/hsv2 |
 
 ---
 
