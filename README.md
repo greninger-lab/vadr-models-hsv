@@ -63,7 +63,8 @@ v-annotate.pl --split --cpu 4 -s --glsearch -r --alt_pass dupregin,discontn,indf
    More information about understanding failures and error alerts can be found in the VADR
    documentation here: https://github.com/ncbi/vadr/blob/release-1.6.3/documentation/annotate.md
 
-   ***NOTE: misc_not_failure:"1" was added to the features contained in the long terminal
+   Error alerts related to features contained in long terminal and internal repeats:<br/>
+   `misc_not_failure:"1"` was added to the .minfo FEATURE entries contained in the long terminal
    and internal repeat regions (e.g., LAT, RL1/neurovirulence protein ICP34.5,
    RL2/ubiquitin E3 ligase ICP0, RS1/transcriptional regulator ICP4) and to
    UL36/large tegument protein (see explanation below in the [HSV-2 VADR model](#hsv2model) section).
@@ -88,6 +89,28 @@ v-annotate.pl --split --cpu 4 -s --glsearch -r --alt_pass dupregin,discontn,indf
    the deletinn & deletinp alerts can be resolved by adding `--nmaxdel 39 --xmaxdel 39` command line
    options to the `v-annotate.pl` command in step 4. A list of additional command line options for
    controlling alert thresholds can be found [here](https://github.com/ncbi/vadr/blob/release-1.6.3/documentation/annotate.md#v-annotatepl-options-for-controlling-thresholds-related-to-alerts-).
+
+   Error alerts related to UL46 tegument protein VP11/12:<br/>
+   In rare cases VADR will generate an error alert when trying to infer start/stop codons.
+   VADR is dependent on the alignment in specific ways, and it can infer incorrectly depending on where
+   insertions are placed. This is sometimes seen in error alerts related to tegument protein VP11/12.
+   In these cases, one will need to manually edit the `.tbl` file with accurate coordinates to resolve
+   the alerts. These alerts will cause failure and can be found in `XXXXX.vadr.alt.list`. Here is an
+   example alert: 
+   ```
+   SAMPLE1  NC_001798  CDS  tegument protein VP11/12  MUTATION_AT_END 99277..99275:-  99468..99467:-  expected stop codon could not be identified, first in-frame stop codon exists 3' of predicted stop position [TAA]
+   ```  
+   Alignment snippet of disrupted stop codon (reverse orientation):
+   ```
+   GGGGCCGGCGGTCGCATTTTTTTTTAATGGCTCTGGTGTCGGCCGCGTTTGAGCTTCGT
+   GGGGCCGGCGGTCGCATTTTTTT..AATGGCTCTGGTGTCGGCCGCGTTTGAGCTTCGT
+   00000000000000000000000..0000000000000000000000000000000000
+   99999999999999999999999..9999999999999999999999999999999999
+   99999999999999999999999..9999999999999999999999999999999999
+   44444444444444444444444..4444444444444444444444444444444455
+   44444555555555566666666..6677777777778888888888999999999900
+   56789012345678901234567..8901234567890123456789012345678901
+   ```
 
 ---
 ## <a name="hsv2model"></a>HSV-2 VADR model
@@ -122,27 +145,6 @@ verified alternative features were added to the model. These
 alternative features were identified and confirmed by mapping reads 
 available in the SRA or identifying common alternatives found in multiple 
 genomes (or both). 
-
-
----
-## <a name="example">Example annotation of HSV-2 sequences
-
-|option|explanation|
-|------|-----------|
-|`--split` | split input file into chunks of about 300Kb and run each chunk separately (300Kb can be changed to `<n>` by adding option `--nkb <n>`| 
-|`--cpu 4` | for input sequence files > 300Kb, run multi-threaded by parallelizing across up to 4 CPU workers (4 can be changed to `<n1>` with `--cpu <n1>`), requires `--split`|
-|`--glsearch` | use the glsearch program from the FASTA package for the alignment stage, required for HSV-2 annotation |
-|`-s`| turn on the seed acceleration heuristic: use the max length ungapped region from blastn to seed the alignment, required for HSV-2 annotation |
-|`-r`| turn on the replace-N strategy: replace stretches of Ns with expected nucleotides, where possible |
-|`--minimap2` | use the minimap2 program to derive seeds and use them instead of blastn-based seeds if they are longer |
-|`--nomisc` | specify that features for failing sequences not be changed to misc_features in the output .tbl file |
-| `--mkey mpxv` | use the model files with prefix `mpxv` in the directory from `--mdir` |
-|`--r_lowsimok` | do not report LOW_SIMILARITY* errors due to N-rich regions |
-|`--r_lowsimxl 2000` | for `--r_lowsimok`, LOW_SIMILARITY* errors will not be reported only for low similarity regions of at most 2000nt |
-|`--r_lowsimxd 100` | for `--r_lowsimok`, LOW_SIMILARITY* errors will not be reported only for low similarity regions in which the difference in expected length compared to the model RefSeq is at most 100nt |
-| `--alt_pass discont,dupregin` | specify that discontn and dupregion alerts that occur due to repetitive regions, which are common in HSV-2 sequences, do NOT cause a sequence to fail |
-| `--s_overhang 150` | specify that the number of nucleotides overlap between the seed and flanking regions aligned with glsearch be 150 nt |
-| `--mdir /path/to/vadr-models-hsv2/hsv2` | specify that the models to use are in directory /path/to/vadr-models-hsv2/hsv2 |
 
 ---
 
