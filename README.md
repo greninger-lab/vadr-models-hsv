@@ -22,11 +22,11 @@ Steps for using VADR for HSV-2 annotation:
    [quay](https://quay.io/repository/staphb/vadr?tab=tags). A brief
    [README for the docker image is here](https://github.com/StaPH-B/docker-builds/tree/master/vadr/1.6.3-hav-flu2).
  
-2. Clone the latest HSV-2 VADR model from this repository (current release v1.0). 
-   git clone git@github.com:greninger-lab/vadr-models-hsv2.git
+2. Clone the latest HSV-2 VADR model from this repository (current release v1.0).<br/>
+   git clone git@github.com:greninger-lab/vadr-models-hsv2.git<br/>
    Note the path to the directory name created (`<hsv2-models-dir-path>`) for step 4.
 
-4. <a name="trim">Remove terminal ambiguous nucleotides from your
+4. Remove terminal ambiguous nucleotides from your
    input fasta sequence file using the `fasta-trim-terminal-ambigs.pl`
    script in `$VADRSCRIPTSDIR/miniscripts/`.
 
@@ -64,7 +64,7 @@ v-annotate.pl --split --cpu 4 -s --glsearch -r --alt_pass dupregin,discontn,indf
    documentation here: https://github.com/ncbi/vadr/blob/release-1.6.3/documentation/annotate.md
 
    Error alerts related to features contained in long terminal and internal repeats:<br/>
-   `misc_not_failure:"1"` was added to the .minfo FEATURE entries contained in the long terminal
+   `misc_not_failure:"1"` was added to the .minfo file FEATURE entries contained in the long terminal
    and internal repeat regions (e.g., LAT, RL1/neurovirulence protein ICP34.5,
    RL2/ubiquitin E3 ligase ICP0, RS1/transcriptional regulator ICP4) and to
    UL36/large tegument protein (see explanation below in the [HSV-2 VADR model](#hsv2model) section).
@@ -85,7 +85,7 @@ v-annotate.pl --split --cpu 4 -s --glsearch -r --alt_pass dupregin,discontn,indf
    1.5.1 SAMPLE1 NC_001798 CDS large_tegument_protein 81 deletinn no DELETION_OF_NT 71637..71637:- 1 72174..72136:- 39 too large of a deletion in nucleotide-based alignment of CDS feature [39>27]
    1.5.2 SAMPLE1 NC_001798 CDS large_tegument_protein 81 deletinp no DELETION_OF_NT 71636..71636:- 1 72173..72135:- 39 too large of a deletion in protein-based alignment [39>27]
    ```
-   In this case, if one is confident in the sequence/assembly for the `CDS large_tegument_protein`,
+   In this case, if one is confident in the sequence/assembly for the CDS large_tegument_protein region,
    the deletinn & deletinp alerts can be resolved by adding `--nmaxdel 39 --xmaxdel 39` command line
    options to the `v-annotate.pl` command in step 4. A list of additional command line options for
    controlling alert thresholds can be found [here](https://github.com/ncbi/vadr/blob/release-1.6.3/documentation/annotate.md#v-annotatepl-options-for-controlling-thresholds-related-to-alerts-).
@@ -94,8 +94,7 @@ v-annotate.pl --split --cpu 4 -s --glsearch -r --alt_pass dupregin,discontn,indf
    In rare cases VADR will generate an error alert when trying to infer start/stop codons.
    VADR is dependent on the alignment in specific ways, and it can infer incorrectly depending on where
    insertions are placed. This is sometimes seen in error alerts related to tegument protein VP11/12.
-   In these cases, one will need to manually edit the `.tbl` file with accurate coordinates to resolve
-   the alerts. These alerts will cause failure and can be found in `XXXXX.vadr.alt.list`. Here is an
+   These alerts will cause failure and can be found in `XXXXX.vadr.alt.list`. Here is an
    example alert: 
    ```
    SAMPLE1  NC_001798  CDS  tegument protein VP11/12  MUTATION_AT_END 99277..99275:-  99468..99467:-  expected stop codon could not be identified, first in-frame stop codon exists 3' of predicted stop position [TAA]
@@ -111,6 +110,8 @@ v-annotate.pl --split --cpu 4 -s --glsearch -r --alt_pass dupregin,discontn,indf
    44444555555555566666666..6677777777778888888888999999999900
    56789012345678901234567..8901234567890123456789012345678901
    ```
+   In cases where the alignment disrupts the identification of a stop/start codon, one will need
+   to manually edit the `.tbl` file with accurate coordinates to resolve the alerts.
 
 ---
 ## <a name="hsv2model"></a>HSV-2 VADR model
