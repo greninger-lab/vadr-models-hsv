@@ -23,7 +23,7 @@ Steps for using VADR for HSV-2 annotation:
    [README for the docker image is here](https://github.com/StaPH-B/docker-builds/tree/master/vadr/1.6.3-hav-flu2).
  
 2. Clone the latest HSV-2 VADR model from this repository (current release v1.0).<br/>
-   git clone git@github.com:greninger-lab/vadr-models-hsv2.git<br/>
+   `git clone git@github.com:greninger-lab/vadr-models-hsv2.git`<br/>
    Note the path to the directory name created (`<hsv2-models-dir-path>`) for step 4.
 
 4. Remove terminal ambiguous nucleotides from your
