@@ -24,7 +24,9 @@ Steps for using VADR for HSV-2 annotation:
  
 2. Clone the latest HSV-2 VADR model from this repository (current release v1.0).<br/>
    `git clone git@github.com:greninger-lab/vadr-models-hsv2.git`<br/>
-   Note the path to the directory name created (`<hsv2-models-dir-path>`) for step 4.
+   Note the path to the directory name created plus the /hsv2
+   subdirectory (e.g. /home/jfurlong/vadr-models-hsv2/hsv2) as `<hsv2-models-dir-path>`
+   for step 4.
 
 4. Remove terminal ambiguous nucleotides from your
    input fasta sequence file using the `fasta-trim-terminal-ambigs.pl`
@@ -50,7 +52,7 @@ $VADRSCRIPTSDIR/miniscripts/fasta-trim-terminal-ambigs.pl --minlen 50 --maxlen 1
    incompatible with `-p`.***
 
 ```
-v-annotate.pl --split --cpu 4 -s --glsearch -r --alt_pass dupregin,discontn,indfstrn,indfstrp --r_lowsimok --nmiscftrthr 10 -f --keep --mkey NC_001798 --mdir <hsv2-models-dir-path> <fasta-file-to-annotate> <output-directory-to-create>
+v-annotate.pl --split --cpu 4 -s --glsearch -r --alt_pass dupregin,discontn,indfstrn,indfstrp --r_lowsimok --nmiscftrthr 10 -f --keep --mkey NC_001798.vadr --mdir <hsv2-models-dir-path> <fasta-file-to-annotate> <output-directory-to-create>
 ```
 
 5. After running the `v-annotate.pl` command in step 4, there will be a number of files
