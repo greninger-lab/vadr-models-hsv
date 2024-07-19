@@ -1,0 +1,17 @@
+>Feature ref|YP_009137086.1|
+1	626	Protein
+			product	deoxyribonuclease
+			prot_desc	involved in DNA processing
+<10	>146	Region
+			region	PHA03291
+			note	envelope glycoprotein I; Provisional
+			db_xref	CDD:223033
+126	614	Region
+			region	PHA03293
+			note	deoxyribonuclease; Provisional
+			db_xref	CDD:223034
+1	626	CDS
+			product	deoxyribonuclease
+			prot_desc	involved in DNA processing
+			protein_id	ref|YP_009137086.1|
+

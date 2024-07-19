@@ -1,0 +1,13 @@
+>Feature ref|YP_009137121.1|
+1	718	Protein
+			product	tegument protein VP11/12
+			prot_desc	modulates transactivating tegument protein VP16; possibly involved in gene regulation
+1	718	Region
+			region	PHA03321
+			note	tegument protein VP11/12; Provisional
+			db_xref	CDD:223041
+1	718	CDS
+			product	tegument protein VP11/12
+			prot_desc	modulates transactivating tegument protein VP16; possibly involved in gene regulation
+			protein_id	ref|YP_009137121.1|
+

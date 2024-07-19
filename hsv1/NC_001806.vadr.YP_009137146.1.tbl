@@ -1,0 +1,15 @@
+>Feature ref|YP_009137146.1|
+1	312	Protein
+			product	virion protein US10
+<22	>128	Region
+			region	PTZ00449
+			note	104 kDa microneme/rhoptry antigen; Provisional
+			db_xref	CDD:185628
+164	>310	Region
+			region	Gene66
+			note	Gene 66 (IR5) protein
+			db_xref	CDD:366894
+1	312	CDS
+			product	virion protein US10
+			protein_id	ref|YP_009137146.1|
+

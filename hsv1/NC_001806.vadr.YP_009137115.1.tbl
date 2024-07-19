@@ -1,0 +1,50 @@
+>Feature ref|YP_009137115.1|
+1	340	Protein
+			product	ribonucleotide reductase subunit 2
+			prot_desc	involved in nucleotide metabolism
+			EC_number	1.17.4.1
+37	302	Region
+			region	Ribonuc_red_sm
+			note	Ribonucleotide reductase, small chain
+			db_xref	CDD:425568
+47	47	Site
+54	54
+118	119
+122	122
+125	126
+129	129
+132	132
+150	151
+154	154
+			site_type	other
+			note	dimer interface [polypeptide binding]
+			db_xref	CDD:153108
+58	58	Site
+94	94
+124	124
+127	127
+131	131
+219	220
+224	224
+			site_type	active
+			note	putative radical transfer pathway [active]
+			db_xref	CDD:153108
+94	94	Site
+124	124
+127	127
+187	187
+221	221
+224	224
+			site_type	other
+			note	diiron center [ion binding]
+			db_xref	CDD:153108
+131	131	Site
+			site_type	other
+			note	tyrosyl radical
+			db_xref	CDD:153108
+1	340	CDS
+			product	ribonucleotide reductase subunit 2
+			prot_desc	involved in nucleotide metabolism
+			EC_number	1.17.4.1
+			protein_id	ref|YP_009137115.1|
+

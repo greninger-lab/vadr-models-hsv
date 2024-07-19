@@ -1,0 +1,14 @@
+>Feature ref|YP_009137138.1|
+1	481	Protein
+			product	serine/threonine protein kinase US3
+			prot_desc	tegument protein; phosphorylates nuclear egress lamina protein; mediates phosphorylation of HDAC1 and HDAC2 and other cellular and viral proteins; involved in protein phosphorylation; involved in apoptosis; involved in nuclear egress
+1	481	Region
+			region	PHA03211
+			note	serine/threonine kinase US3; Provisional
+			db_xref	CDD:223009
+1	481	CDS
+			product	serine/threonine protein kinase US3
+			prot_desc	tegument protein; phosphorylates nuclear egress lamina protein; mediates phosphorylation of HDAC1 and HDAC2 and other cellular and viral proteins; involved in protein phosphorylation; involved in apoptosis; involved in nuclear egress
+			protein_id	ref|YP_009137138.1|
+			note	PK family
+

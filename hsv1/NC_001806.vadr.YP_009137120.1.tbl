@@ -1,0 +1,13 @@
+>Feature ref|YP_009137120.1|
+1	172	Protein
+			product	membrane protein UL45
+			prot_desc	type 2 membrane protein; tegument-associated; possibly involved in membrane fusion
+4	171	Region
+			region	UL45
+			note	UL45 protein, carbohydrate-binding C-type lectin-like
+			db_xref	CDD:368457
+1	172	CDS
+			product	membrane protein UL45
+			prot_desc	type 2 membrane protein; tegument-associated; possibly involved in membrane fusion
+			protein_id	ref|YP_009137120.1|
+

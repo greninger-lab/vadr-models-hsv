@@ -1,0 +1,13 @@
+>Feature ref|YP_009137148.1|
+1	88	Protein
+			product	TAP transporter inhibitor ICP47
+			prot_desc	inhibits antigen presentation; involved in immune regulation
+1	82	Region
+			region	Herpes_US12
+			note	Herpesvirus US12 family
+			db_xref	CDD:398827
+1	88	CDS
+			product	TAP transporter inhibitor ICP47
+			prot_desc	inhibits antigen presentation; involved in immune regulation
+			protein_id	ref|YP_009137148.1|
+

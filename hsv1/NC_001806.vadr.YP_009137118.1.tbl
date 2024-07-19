@@ -1,0 +1,16 @@
+>Feature ref|YP_009137118.1|
+1	417	Protein
+			product	envelope protein UL43
+			prot_desc	type 3 membrane protein; possibly involved in membrane fusion
+			prot_note	11 transmembrane domains
+			note	11 transmembrane domains
+4	415	Region
+			region	PHA03179
+			note	UL43 envelope protein; Provisional
+			db_xref	CDD:223006
+1	417	CDS
+			product	envelope protein UL43
+			prot_desc	type 3 membrane protein; possibly involved in membrane fusion
+			prot_note	11 transmembrane domains
+			protein_id	ref|YP_009137118.1|
+

@@ -1,0 +1,16 @@
+>Feature ref|YP_009137101.1|
+1	329	Protein
+			product	capsid scaffold protein
+			prot_desc	clipped near C terminus; involved in capsid morphogenesis
+			prot_note	VP22a
+			note	VP22a
+<1	58	Region
+			region	Peptidase_S21
+			note	Assemblin (Peptidase family S21)
+			db_xref	CDD:330753
+1	329	CDS
+			product	capsid scaffold protein
+			prot_desc	clipped near C terminus; involved in capsid morphogenesis
+			prot_note	VP22a
+			protein_id	ref|YP_009137101.1|
+

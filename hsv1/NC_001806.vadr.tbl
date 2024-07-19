@@ -1,0 +1,1129 @@
+>Feature ref|NC_001806.2|
+1	9213	repeat_region
+			note	TRL; inverted repeat flanking UL
+			rpt_type	inverted
+7569	>1	gene
+			gene	LAT
+			locus_tag	HHV1gp00s01
+			db_xref	GeneID:24271498
+7569	6910	ncRNA
+4953	>1
+			ncRNA_class	other
+			product	LAT
+1	399	repeat_region
+			note	'a' sequence
+			rpt_type	direct
+			rpt_type	terminal
+98	320	repeat_region
+			note	'a' sequence reiteration set
+			rpt_type	direct
+			rpt_type	tandem
+			rpt_unit_range	98..109
+513	1540	gene
+			gene	RL1
+			locus_tag	HHV1gp00p77
+			db_xref	GeneID:2703395
+513	1259	CDS
+			product	neurovirulence protein ICP34.5
+			prot_desc	virion protein; inhibits stress-induced translational arrest; related to eIF2 phosphatase regulatory subunit GADD34; binds protein phosphatase 1 to form a holoenzyme capable of dephosphorylating eIF2-alpha; involved in translational regulation
+			protein_id	ref|YP_009137073.1|
+988	1040	repeat_region
+			note	RL reiteration set 6
+			rpt_type	direct
+			rpt_type	tandem
+			rpt_unit_range	988..996
+1535	1540	regulatory
+			regulatory_class	polyA_signal_sequence
+2087	5699	gene
+			gene	RL2
+			locus_tag	HHV1gp00p76
+			note	immediate early gene
+			db_xref	GeneID:2703389
+2087	2092	regulatory
+			regulatory_class	TATA_box
+2114	2318	mRNA
+3084	3750
+3887	5699
+			product	ubiquitin E3 ligase ICP0
+2262	2318	CDS
+3084	3750
+3887	5490
+			product	ubiquitin E3 ligase ICP0
+			prot_desc	contains a RING finger; disrupts ND10; proteasome-dependent degradation of several cellular proteins; involved in gene regulation; involved in cellular protein degradation; involved in latency
+			protein_id	ref|YP_009137074.1|
+2466	2624	repeat_region
+			note	RL reiteration set 5
+			rpt_type	direct
+			rpt_type	tandem
+			rpt_unit_range	2466..2519
+5677	5682	regulatory
+			regulatory_class	polyA_signal_sequence
+5732	5878	repeat_region
+			note	RL reiteration set 4
+			rpt_type	direct
+			rpt_type	tandem
+			rpt_unit_range	5732..5747
+7597	7592	regulatory
+			regulatory_class	TATA_box
+8554	8585	repeat_region
+			note	RL reiteration set 3
+			rpt_type	direct
+			rpt_type	tandem
+			rpt_unit_range	8554..8558
+8806	8826	repeat_region
+			note	RL reiteration set 2
+			rpt_type	direct
+			rpt_type	tandem
+			rpt_unit_range	8806..8808
+9033	9213	repeat_region
+			note	RL reiteration set 1
+			rpt_type	direct
+			rpt_type	tandem
+			rpt_unit_range	9033..9049
+9214	117160	misc_feature
+			note	UL; long unique region
+9338	10949	gene
+			gene	UL1
+			locus_tag	HHV1gp00p75
+			note	core gene
+			db_xref	GeneID:2703393
+9338	10012	CDS
+			product	envelope glycoprotein L
+			prot_desc	contains a signal peptide; complexed with envelope glycoprotein H; involved in cell entry; involved in cell-to-cell spread
+			protein_id	ref|YP_009137075.1|
+9885	10949	gene
+			gene	UL2
+			locus_tag	HHV1gp00p74
+			note	core gene
+			db_xref	GeneID:2703370
+9885	10889	CDS
+			product	uracil-DNA glycosylase
+			prot_desc	involved in DNA repair
+			EC_number	3.2.2.3
+			protein_id	ref|YP_009137076.1|
+10944	10949	regulatory
+			gene	-
+			note	UL1, UL2
+			regulatory_class	polyA_signal_sequence
+10991	11721	gene
+			gene	UL3
+			locus_tag	HHV1gp00p73
+			note	alpha gene
+			db_xref	GeneID:2703461
+10991	11665	CDS
+			product	nuclear protein UL3
+			prot_desc	colocalizes with regulatory protein ICP22 and nuclear protein UL4 in small, dense nuclear bodies
+			protein_id	ref|YP_009137077.1|
+11716	11721	regulatory
+			regulatory_class	polyA_signal_sequence
+15132	11754	gene
+			gene	UL5
+			locus_tag	HHV1gp00p72
+			note	core gene
+			db_xref	GeneID:2703420
+12423	11754	gene
+			gene	UL4
+			locus_tag	HHV1gp00p71
+			note	alpha gene
+			db_xref	GeneID:2703362
+11759	11754	regulatory
+			gene	-
+			note	UL4, UL5
+			regulatory_class	polyA_signal_sequence
+12423	11824	CDS
+			product	nuclear protein UL4
+			prot_desc	colocalizes with regulatory protein ICP22 and nuclear protein UL3 in small, dense nuclear bodies
+			protein_id	ref|YP_009137078.1|
+15132	12484	CDS
+			product	helicase-primase helicase subunit
+			prot_desc	involved in DNA replication
+			protein_id	ref|YP_009137079.1|
+15131	18041	gene
+			gene	UL6
+			locus_tag	HHV1gp00p70
+			note	core gene
+			db_xref	GeneID:2703429
+15131	17161	CDS
+			product	capsid portal protein
+			prot_desc	dodecamer located at one capsid vertex in place of a penton; involved in DNA encapsidation
+			protein_id	ref|YP_009137080.1|
+17136	18041	gene
+			gene	UL7
+			locus_tag	HHV1gp00p69
+			note	core gene
+			db_xref	GeneID:2703431
+17136	18026	CDS
+			product	tegument protein UL7
+			prot_desc	involved in virion morphogenesis
+			protein_id	ref|YP_009137081.1|
+18036	18041	regulatory
+			gene	-
+			note	UL6, UL7
+			regulatory_class	polyA_signal_sequence
+23260	18211	gene
+			gene	UL9
+			locus_tag	HHV1gp00p68
+			note	core gene
+			db_xref	GeneID:2703434
+20477	18211	gene
+			gene	UL8
+			locus_tag	HHV1gp00p67
+			note	core gene
+			db_xref	GeneID:2703432
+18216	18211	regulatory
+			gene	-
+			note	UL8, UL9
+			regulatory_class	polyA_signal_sequence
+20477	18225	CDS
+			product	helicase-primase subunit
+			prot_desc	involved in DNA replication
+			protein_id	ref|YP_009137082.1|
+23260	20705	CDS
+			product	DNA replication origin-binding helicase
+			prot_desc	involved in DNA replication
+			protein_id	ref|YP_009137083.1|
+23205	24649	gene
+			gene	UL10
+			locus_tag	HHV1gp00p66
+			note	core gene
+			db_xref	GeneID:2703379
+23205	24626	CDS
+			product	envelope glycoprotein M
+			prot_desc	type 3 membrane protein; 8 transmembrane domains; complexed with envelope glycoprotein N; involved in virion morphogenesis; involved in membrane fusion
+			protein_id	ref|YP_009137084.1|
+24644	24649	regulatory
+			regulatory_class	polyA_signal_sequence
+28916	24801	gene
+			gene	UL14
+			locus_tag	HHV1gp00p65
+			note	core gene
+			db_xref	GeneID:2703384
+28503	24801	gene
+			gene	UL13
+			locus_tag	HHV1gp00p64
+			note	core gene
+			db_xref	GeneID:2703383
+26888	24801	gene
+			gene	UL12
+			locus_tag	HHV1gp00p63
+			note	core gene
+			db_xref	GeneID:24271463
+25092	24801	gene
+			gene	UL11
+			locus_tag	HHV1gp00p62
+			note	core gene
+			db_xref	GeneID:24271464
+24806	24801	regulatory
+			gene	-
+			note	UL11, UL12, UL13, UL14
+			regulatory_class	polyA_signal_sequence
+25092	24802	CDS
+			product	myristylated tegument protein
+			prot_desc	envelope-associated; involved in virion morphogenesis
+			protein_id	ref|YP_009137085.1|
+26888	25008	CDS
+			product	deoxyribonuclease
+			prot_desc	involved in DNA processing
+			protein_id	ref|YP_009137086.1|
+28503	26947	CDS
+			product	tegument serine/threonine protein kinase
+			prot_desc	involved in protein phosphorylation
+			protein_id	ref|YP_009137087.1|
+			note	PK family
+28916	28257	CDS
+			product	tegument protein UL14
+			prot_desc	involved in virion morphogenesis
+			protein_id	ref|YP_009137088.1|
+29021	34826	gene
+			gene	UL15
+			locus_tag	HHV1gp00p61
+			note	core gene
+			db_xref	GeneID:2703385
+29021	30049	CDS
+33636	34814
+			product	DNA packaging terminase subunit 1
+			prot_desc	contains an ATPase domain; involved in DNA encapsidation
+			prot_note	transiently associated with maturing capsids
+			protein_id	ref|YP_009137089.1|
+33498	30174	gene
+			gene	UL17
+			locus_tag	HHV1gp00p60
+			note	core gene
+			db_xref	GeneID:2703388
+31296	30174	gene
+			gene	UL16
+			locus_tag	HHV1gp00p59
+			note	core gene
+			db_xref	GeneID:24271465
+30179	30174	regulatory
+			gene	-
+			note	UL16, UL17
+			regulatory_class	polyA_signal_sequence
+31296	30175	CDS
+			product	tegument protein UL16
+			prot_desc	possibly involved in virion morphogenesis
+			protein_id	ref|YP_009137090.1|
+33498	31387	CDS
+			product	DNA packaging tegument protein UL17
+			prot_desc	capsid-associated; involved in DNA encapsidation; involved in capsid transport
+			protein_id	ref|YP_009137091.1|
+34821	34826	regulatory
+			regulatory_class	polyA_signal_sequence
+41489	35024	gene
+			gene	UL20
+			locus_tag	HHV1gp00p57
+			note	alpha gene
+			db_xref	GeneID:2703371
+40529	35024	gene
+			gene	UL19
+			locus_tag	HHV1gp00p56
+			note	core gene
+			db_xref	GeneID:2703368
+36052	35024	gene
+			gene	UL18
+			locus_tag	HHV1gp00p58
+			note	core gene
+			db_xref	GeneID:2703366
+35029	35024	regulatory
+			gene	-
+			note	UL18, UL19, UL20
+			regulatory_class	polyA_signal_sequence
+35033	35028	regulatory
+			gene	-
+			note	UL18, UL19, UL20
+			regulatory_class	polyA_signal_sequence
+36052	35096	CDS
+			product	capsid triplex subunit 2
+			prot_desc	complexed 2:1 with capsid triplex subunit 1 to connect capsid hexons and pentons; involved in capsid morphogenesis
+			prot_note	VP23
+			protein_id	ref|YP_009137092.1|
+40529	36405	CDS
+			product	major capsid protein
+			prot_desc	6 copies form hexons, 5 copies form pentons; involved in capsid morphogenesis
+			prot_note	VP5
+			protein_id	ref|YP_009137093.1|
+41489	40821	CDS
+			product	envelope protein UL20
+			prot_desc	type 3 membrane protein; 4 transmembrane domains; involved in virion morphogenesis; involved in membrane fusion
+			protein_id	ref|YP_009137094.1|
+42075	43696	gene
+			gene	UL21
+			locus_tag	HHV1gp00p55
+			note	alpha gene
+			db_xref	GeneID:2703372
+42075	43682	CDS
+			product	tegument protein UL21
+			prot_desc	interacts with microtubules; involved in virion morphogenesis
+			protein_id	ref|YP_009137095.1|
+43691	43696	regulatory
+			regulatory_class	polyA_signal_sequence
+46383	43866	gene
+			gene	UL22
+			locus_tag	HHV1gp00p54
+			note	core gene
+			db_xref	GeneID:24271466
+43871	43866	regulatory
+			regulatory_class	polyA_signal_sequence
+46383	43867	CDS
+			product	envelope glycoprotein H
+			prot_desc	type 1 membrane protein; contains a signal peptide; possible membrane fusogen; complexed with envelope glycoprotein L; involved in cell entry; involved in cell-to-cell spread
+			protein_id	ref|YP_009137096.1|
+47803	46609	gene
+			gene	UL23
+			locus_tag	HHV1gp00p53
+			note	core gene
+			db_xref	GeneID:24271467
+46614	46609	regulatory
+			regulatory_class	polyA_signal_sequence
+46627	46622	regulatory
+			regulatory_class	polyA_signal_sequence
+47803	46673	CDS
+			product	involved in nucleotide metabolism
+			product	thymidine kinase
+			EC_number	2.7.1.21
+			protein_id	ref|YP_009137097.1|
+47738	52772	gene
+			gene	UL24
+			locus_tag	HHV1gp00p52
+			note	core gene
+			db_xref	GeneID:24271468
+47738	48547	CDS
+			product	nuclear protein UL24
+			protein_id	ref|YP_009137098.1|
+48814	52772	gene
+			gene	UL25
+			locus_tag	HHV1gp00p51
+			note	core gene
+			db_xref	GeneID:2703377
+48814	50556	CDS
+			product	DNA packaging tegument protein UL25
+			prot_desc	located on capsid near vertices; possibly stabilizes the capsid and retains the genome; involved in DNA encapsidation
+			protein_id	ref|YP_009137099.1|
+50810	52772	gene
+			gene	UL26
+			locus_tag	HHV1gp00p50
+			note	core gene
+			db_xref	GeneID:2703453
+50810	52717	CDS
+			product	capsid maturation protease
+			prot_desc	serine protease (N-terminal region); minor scaffold protein (remainder of protein, clipped near C terminus); involved in capsid morphogenesis
+			EC_number	3.4.21.97
+			prot_note	VP24; VP21
+			protein_id	ref|YP_009137100.1|
+51728	52772	gene
+			gene	UL26.5
+			locus_tag	HHV1gp00p49
+			note	core gene
+			db_xref	GeneID:2703454
+51728	52717	CDS
+			product	capsid scaffold protein
+			prot_desc	clipped near C terminus; involved in capsid morphogenesis
+			prot_note	VP22a
+			protein_id	ref|YP_009137101.1|
+52767	52772	regulatory
+			gene	-
+			note	UL24, UL25, UL26, UL26.5
+			regulatory_class	polyA_signal_sequence
+58160	53059	gene
+			gene	UL28
+			locus_tag	HHV1gp00p47
+			note	core gene
+			db_xref	GeneID:2703457
+55795	53059	gene
+			gene	UL27
+			locus_tag	HHV1gp00p48
+			note	core gene
+			db_xref	GeneID:24271469
+53064	53059	regulatory
+			gene	-
+			note	UL27, UL28
+			regulatory_class	polyA_signal_sequence
+55795	53081	CDS
+			product	envelope glycoprotein B
+			prot_desc	type 1 membrane protein; contains a signal peptide; possible membrane fusogen; binds cell surface heparan sulphate; involved in cell entry; involved in cell-to-cell spread
+			protein_id	ref|YP_009137102.1|
+58160	55803	CDS
+			product	DNA packaging terminase subunit 2
+			prot_desc	involved in DNA encapsidation
+			prot_note	transiently associated with maturing capsids
+			protein_id	ref|YP_009137103.1|
+62054	58410	gene
+			gene	UL29
+			locus_tag	HHV1gp00p46
+			note	core gene
+			db_xref	GeneID:2703458
+58415	58410	regulatory
+			regulatory_class	polyA_signal_sequence
+62054	58464	CDS
+			product	single-stranded DNA-binding protein
+			prot_desc	contains a zinc-finger; involved in DNA replication; possibly involved in gene regulation
+			prot_note	ICP8
+			protein_id	ref|YP_009137104.1|
+62404	62547	stem_loop
+			note	oriL palindrome
+62807	66553	gene
+			gene	UL30
+			locus_tag	HHV1gp00p45
+			note	core gene
+			db_xref	GeneID:2703462
+62807	66514	CDS
+			product	DNA polymerase catalytic subunit
+			prot_desc	involved in DNA replication
+			EC_number	2.7.7.7
+			protein_id	ref|YP_009137105.1|
+69162	66377	gene
+			gene	UL32
+			locus_tag	HHV1gp00p44
+			note	core gene
+			db_xref	GeneID:2703352
+67379	66377	gene
+			gene	UL31
+			locus_tag	HHV1gp00p43
+			note	core gene
+			db_xref	GeneID:2703350
+66382	66377	regulatory
+			gene	-
+			note	UL31, UL32
+			regulatory_class	polyA_signal_sequence
+67379	66459	CDS
+			product	nuclear egress lamina protein
+			prot_desc	interacts with nuclear egress membrane protein; involved in nuclear egress
+			protein_id	ref|YP_009137106.1|
+66548	66553	regulatory
+			regulatory_class	polyA_signal_sequence
+69162	67372	CDS
+			product	DNA packaging protein UL32
+			prot_desc	involved in DNA encapsidation; possibly involved in capsid transport
+			protein_id	ref|YP_009137107.1|
+69161	70943	gene
+			gene	UL33
+			locus_tag	HHV1gp00p42
+			note	core gene
+			db_xref	GeneID:2703353
+69161	69553	CDS
+			product	DNA packaging protein UL33
+			prot_desc	interacts with DNA packaging terminase subunit 2; involved in DNA encapsidation
+			protein_id	ref|YP_009137108.1|
+69633	70943	gene
+			gene	UL34
+			locus_tag	HHV1gp00p41
+			note	core gene
+			db_xref	GeneID:2703355
+69633	70460	CDS
+			product	nuclear egress membrane protein
+			prot_desc	type 2 membrane protein; interacts with nuclear egress lamina protein; involved in nuclear egress
+			protein_id	ref|YP_009137109.1|
+70566	70943	gene
+			gene	UL35
+			locus_tag	HHV1gp00p40
+			note	core gene
+			db_xref	GeneID:2703356
+70566	70904	CDS
+			product	small capsid protein
+			prot_desc	located externally on capsid hexons; involved in capsid morphogenesis; possibly involved in capsid transport
+			prot_note	VP26; interacts with dynein
+			protein_id	ref|YP_009137110.1|
+70938	70943	regulatory
+			gene	-
+			note	UL33, UL34, UL35
+			regulatory_class	polyA_signal_sequence
+80468	70983	gene
+			gene	UL36
+			locus_tag	HHV1gp00p39
+			note	core gene
+			db_xref	GeneID:2703357
+70988	70983	regulatory
+			regulatory_class	polyA_signal_sequence
+80468	71049	CDS
+			product	large tegument protein
+			prot_desc	complexed with tegument protein UL37; ubiquitin-specific protease (N-terminal region); involved in capsid transport
+			prot_note	VP1/2
+			protein_id	ref|YP_009137111.1|
+71604	71814	repeat_region
+			note	UL reiteration set 1
+			rpt_type	direct
+			rpt_type	tandem
+			rpt_unit_range	71604..71609
+84084	80712	gene
+			gene	UL37
+			locus_tag	HHV1gp00p38
+			note	core gene
+			db_xref	GeneID:2703358
+80717	80712	regulatory
+			regulatory_class	polyA_signal_sequence
+84084	80713	CDS
+			product	tegument protein UL37
+			prot_desc	complexed with large tegument protein; involved in virion morphogenesis
+			protein_id	ref|YP_009137112.1|
+84531	86021	gene
+			gene	UL38
+			locus_tag	HHV1gp00p37
+			note	core gene
+			db_xref	GeneID:2703359
+84531	85928	CDS
+			product	capsid triplex subunit 1
+			prot_desc	complexed 1:2 with capsid triplex subunit 2 to connect capsid hexons and pentons; involved in capsid morphogenesis
+			prot_note	VP19C
+			protein_id	ref|YP_009137113.1|
+86016	86021	regulatory
+			regulatory_class	polyA_signal_sequence
+86443	90987	gene
+			gene	UL39
+			locus_tag	HHV1gp00p36
+			note	core gene
+			db_xref	GeneID:2703361
+86443	89856	CDS
+			product	ribonucleotide reductase subunit 1
+			prot_desc	involved in nucleotide metabolism
+			EC_number	1.17.4.1
+			prot_note	translation initiation factor-associated protein (N-terminal region)
+			protein_id	ref|YP_009137114.1|
+89925	90987	gene
+			gene	UL40
+			locus_tag	HHV1gp00p35
+			note	core gene
+			db_xref	GeneID:24271470
+89925	90947	CDS
+			product	ribonucleotide reductase subunit 2
+			prot_desc	involved in nucleotide metabolism
+			EC_number	1.17.4.1
+			protein_id	ref|YP_009137115.1|
+90982	90987	regulatory
+			gene	-
+			note	UL39, UL40
+			regulatory_class	polyA_signal_sequence
+92636	91115	gene
+			gene	UL41
+			locus_tag	HHV1gp00p34
+			note	alpha gene
+			db_xref	GeneID:2703365
+91120	91115	regulatory
+			regulatory_class	polyA_signal_sequence
+92636	91167	CDS
+			product	tegument host shutoff protein
+			prot_desc	mRNA-specific RNase; involved in cellular mRNA degradation
+			protein_id	ref|YP_009137116.1|
+93112	94637	gene
+			gene	UL42
+			locus_tag	HHV1gp00p33
+			note	alpha gene
+			db_xref	GeneID:24271471
+93112	94578	CDS
+			product	DNA polymerase processivity subunit
+			prot_desc	dsDNA-binding protein; involved in DNA replication
+			protein_id	ref|YP_009137117.1|
+94632	94637	regulatory
+			regulatory_class	polyA_signal_sequence
+94799	96068	gene
+			gene	UL43
+			locus_tag	HHV1gp00p32
+			note	core gene
+			db_xref	GeneID:2703408
+94799	96052	CDS
+			product	envelope protein UL43
+			prot_desc	type 3 membrane protein; possibly involved in membrane fusion
+			prot_note	11 transmembrane domains
+			protein_id	ref|YP_009137118.1|
+96063	96068	regulatory
+			regulatory_class	polyA_signal_sequence
+96312	98669	gene
+			gene	UL44
+			locus_tag	HHV1gp00p31
+			note	alpha gene
+			db_xref	GeneID:2703410
+96312	97847	CDS
+			product	envelope glycoprotein C
+			prot_desc	type 1 membrane protein; contains a signal peptide; binds cell surface heparan sulphate; binds complement C3b to block neutralization; involved in cell attachment
+			protein_id	ref|YP_009137119.1|
+98033	98669	gene
+			gene	UL45
+			locus_tag	HHV1gp00p30
+			note	alpha gene
+			db_xref	GeneID:24271472
+98033	98551	CDS
+			product	membrane protein UL45
+			prot_desc	type 2 membrane protein; tegument-associated; possibly involved in membrane fusion
+			protein_id	ref|YP_009137120.1|
+98664	98669	regulatory
+			gene	-
+			note	UL44, UL45
+			regulatory_class	polyA_signal_sequence
+103117	98727	gene
+			gene	UL47
+			locus_tag	HHV1gp00p28
+			note	alpha gene
+			db_xref	GeneID:2703415
+100953	98727	gene
+			gene	UL46
+			locus_tag	HHV1gp00p29
+			note	alpha gene
+			db_xref	GeneID:2703413
+98732	98727	regulatory
+			gene	-
+			note	UL46, UL47
+			regulatory_class	polyA_signal_sequence
+100953	98797	CDS
+			product	tegument protein VP11/12
+			prot_desc	modulates transactivating tegument protein VP16; possibly involved in gene regulation
+			protein_id	ref|YP_009137121.1|
+103117	101036	CDS
+			product	tegument protein VP13/14
+			prot_desc	modulates transactivating tegument protein VP16; RNA-binding protein; possibly involved in gene regulation
+			protein_id	ref|YP_009137122.1|
+105080	103538	gene
+			gene	UL48
+			locus_tag	HHV1gp00p27
+			note	alpha gene
+			db_xref	GeneID:24271473
+103543	103538	regulatory
+			regulatory_class	polyA_signal_sequence
+105080	103608	CDS
+			product	transactivating tegument protein VP16
+			prot_desc	transactivates immediate early genes; involved in gene regulation; involved in virion morphogenesis
+			protein_id	ref|YP_009137123.1|
+106994	105463	gene
+			gene	UL49A
+			locus_tag	HHV1gp00p26
+			note	core gene
+			db_xref	GeneID:2703419
+106392	105463	gene
+			gene	UL49
+			locus_tag	HHV1gp00p25
+			db_xref	GeneID:2703417
+105468	105463	regulatory
+			gene	-
+			note	UL49, UL49A
+			regulatory_class	polyA_signal_sequence
+106392	105487	CDS
+			product	tegument protein VP22
+			prot_desc	involved in virion morphogenesis; possibly involved in RNA transport to uninfected cells
+			protein_id	ref|YP_009137124.1|
+106994	106719	CDS
+			product	envelope glycoprotein N
+			prot_desc	type 1 membrane protein; contains a signal peptide; complexed with envelope glycoprotein M; involved in virion morphogenesis; involved in membrane fusion
+			prot_note	not glycosylated
+			protein_id	ref|YP_009137125.1|
+107011	108158	gene
+			gene	UL50
+			locus_tag	HHV1gp00p24
+			note	core gene
+			db_xref	GeneID:2703421
+107011	108126	CDS
+			product	deoxyuridine triphosphatase
+			prot_desc	involved in nucleotide metabolism
+			EC_number	3.6.1.23
+			protein_id	ref|YP_009137126.1|
+			note	DURP family
+108153	108158	regulatory
+			regulatory_class	polyA_signal_sequence
+109012	108277	gene
+			gene	UL51
+			locus_tag	HHV1gp00p23
+			note	core gene
+			db_xref	GeneID:2703422
+108282	108277	regulatory
+			regulatory_class	polyA_signal_sequence
+109012	108278	CDS
+			product	tegument protein UL51
+			prot_desc	involved in virion morphogenesis
+			protein_id	ref|YP_009137127.1|
+109049	113449	gene
+			gene	UL52
+			locus_tag	HHV1gp00p22
+			note	core gene
+			db_xref	GeneID:2703423
+109049	112225	CDS
+			product	helicase-primase primase subunit
+			prot_desc	involved in DNA replication
+			protein_id	ref|YP_009137128.1|
+112180	113449	gene
+			gene	UL53
+			locus_tag	HHV1gp00p21
+			note	alpha gene
+			db_xref	GeneID:2703425
+112180	113196	CDS
+			product	envelope glycoprotein K
+			prot_desc	type 3 membrane protein; contains a signal peptide; 4 transmembrane domains; involved in virion morphogenesis; involved in membrane fusion
+			protein_id	ref|YP_009137129.1|
+113444	113449	regulatory
+			gene	-
+			note	UL52, UL53
+			regulatory_class	polyA_signal_sequence
+113735	115283	gene
+			gene	UL54
+			locus_tag	HHV1gp00p20
+			note	core gene; immediate early gene
+			db_xref	GeneID:24271474
+113735	115273	CDS
+			product	multifunctional expression regulator
+			prot_desc	RNA-binding protein; shuttles between nucleus and cytoplasm; inhibits pre-mRNA splicing; exports virus mRNA from nucleus; exerts most effects post-transcriptionally; involved in gene regulation; involved in RNA metabolism and transport
+			prot_note	ICP27
+			protein_id	ref|YP_009137130.1|
+			note	MER family
+115278	115283	regulatory
+			regulatory_class	polyA_signal_sequence
+115497	116104	gene
+			gene	UL55
+			locus_tag	HHV1gp00p19
+			db_xref	GeneID:2703427
+115497	116057	CDS
+			product	nuclear protein UL55
+			protein_id	ref|YP_009137131.1|
+116099	116104	regulatory
+			regulatory_class	polyA_signal_sequence
+116926	116197	gene
+			gene	UL56
+			locus_tag	HHV1gp00p18
+			note	alpha gene
+			db_xref	GeneID:2703428
+116202	116197	regulatory
+			regulatory_class	polyA_signal_sequence
+116206	116201	regulatory
+			regulatory_class	polyA_signal_sequence
+116926	116222	CDS
+			product	membrane protein UL56
+			prot_desc	type 2 membrane protein; possibly involved in vesicular trafficking
+			protein_id	ref|YP_009137132.1|
+			note	UL56 family
+117160	117341	repeat_region
+			note	RL reiteration set 1
+			rpt_type	direct
+			rpt_type	tandem
+			rpt_unit_range	117160..117176
+117161	126373	repeat_region
+			note	IRL; inverted repeat flanking UL
+			rpt_type	inverted
+117548	117568	repeat_region
+			note	RL reiteration set 2
+			rpt_type	direct
+			rpt_type	tandem
+			rpt_unit_range	117548..117550
+117789	117820	repeat_region
+			note	RL reiteration set 3
+			rpt_type	direct
+			rpt_type	tandem
+			rpt_unit_range	117789..117793
+118777	127151	gene
+			gene	LAT
+			locus_tag	HHV1gp00s02
+			db_xref	GeneID:24271497
+118777	118782	regulatory
+			regulatory_class	TATA_box
+118805	119464	ncRNA
+121421	127151
+			ncRNA_class	other
+			product	LAT
+120496	120642	repeat_region
+			gene	-
+			note	RL reiteration set 4
+			rpt_type	direct
+			rpt_type	tandem
+			rpt_unit_range	120496..120511
+124287	120675	gene
+			gene	RL2
+			locus_tag	HHV1gp00p17
+			note	immediate early gene
+			db_xref	GeneID:2703390
+124287	124056	mRNA
+123290	122624
+122487	120675
+			product	ubiquitin E3 ligase ICP0
+120697	120692	regulatory
+			regulatory_class	polyA_signal_sequence
+124112	124056	CDS
+123290	122624
+122487	120884
+			product	contains a RING finger; disrupts ND10; proteasome-dependent degradation of several cellular proteins; involved in gene regulation; involved in cellular protein degradation; involved in latency
+			product	ubiquitin E3 ligase ICP0
+			protein_id	ref|YP_009137133.1|
+123750	123908	repeat_region
+			gene	-
+			note	RL reiteration set 5
+			rpt_type	direct
+			rpt_type	tandem
+			rpt_unit_range	123750..123806
+124287	124282	regulatory
+			regulatory_class	TATA_box
+125861	124834	gene
+			gene	RL1
+			locus_tag	HHV1gp00p16
+			db_xref	GeneID:2703396
+124839	124834	regulatory
+			regulatory_class	polyA_signal_sequence
+125861	125115	CDS
+			product	neurovirulence protein ICP34.5
+			product	virion protein; inhibits stress-induced translational arrest; related to eIF2 phosphatase regulatory subunit GADD34; binds protein phosphatase 1 to form a holoenzyme capable of dephosphorylating eIF2-alpha; involved in translational regulation
+			protein_id	ref|YP_009137134.1|
+125334	125386	repeat_region
+			gene	-
+			note	RL reiteration set 6
+			rpt_type	direct
+			rpt_type	tandem
+			rpt_unit_range	125334..125342
+125975	132607	repeat_region
+			gene	-
+			note	IRS; inverted repeat flanking US
+			rpt_type	inverted
+125975	126373	repeat_region
+			gene	-
+			note	'a' sequence
+			rpt_type	inverted
+126054	126276	repeat_region
+			gene	-
+			note	'a' sequence reiteration set
+			rpt_type	direct
+			rpt_type	tandem
+			rpt_unit_range	126054..126065
+126573	126712	repeat_region
+			gene	-
+			note	RS reiteration set 1
+			rpt_type	direct
+			rpt_type	tandem
+			rpt_unit_range	126573..126588
+126813	127145	repeat_region
+			gene	-
+			note	RS reiteration set 2
+			rpt_type	direct
+			rpt_type	tandem
+			rpt_unit_range	126813..126829
+127146	127151	regulatory
+			regulatory_class	polyA_signal_sequence
+131460	127173	gene
+			gene	RS1
+			locus_tag	HHV1gp00p15
+			note	alpha gene; immediate early gene
+			db_xref	GeneID:2703392
+131431	127173	mRNA
+			product	transcriptional regulator ICP4
+127192	127187	regulatory
+			regulatory_class	polyA_signal_sequence
+131131	127235	CDS
+			product	transcriptional regulator ICP4
+			prot_desc	involved in gene regulation
+			protein_id	ref|YP_009137135.1|
+131460	131455	regulatory
+			regulatory_class	TATA_box
+131980	132024	stem_loop
+			note	oriS palindrome
+132101	133963	gene
+			gene	US1
+			locus_tag	HHV1gp00p14
+			note	immediate early gene
+			db_xref	GeneID:2703435
+132101	132106	regulatory
+			regulatory_class	TATA_box
+132129	132375	mRNA
+132544	133960
+			product	regulatory protein ICP22
+132391	132516	repeat_region
+			note	IRS reiteration set 3
+			rpt_type	direct
+			rpt_type	tandem
+			rpt_unit_range	132391..132413
+132608	145589	misc_feature
+			note	US; short unique region
+132647	133909	CDS
+			product	regulatory protein ICP22
+			prot_desc	required for expression of a subset of late genes; involved in gene regulation; involved in cell cycle regulation
+			protein_id	ref|YP_009137136.1|
+133944	133949	regulatory
+			regulatory_class	polyA_signal_sequence
+135336	134026	gene
+			gene	US2
+			locus_tag	HHV1gp00p13
+			note	alpha gene
+			db_xref	GeneID:2703399
+135307	134026	mRNA
+			product	virion protein US2
+134044	134039	regulatory
+			regulatory_class	polyA_signal_sequence
+134931	134056	CDS
+			product	virion protein US2
+			prot_desc	possibly envelope-associated; interacts with cytokeratin 18
+			protein_id	ref|YP_009137137.1|
+134937	137534	gene
+			gene	US3
+			locus_tag	HHV1gp00p12
+			note	alpha gene
+			db_xref	GeneID:2703401
+134937	134942	regulatory
+			regulatory_class	TATA_box
+134967	137534	mRNA
+			product	serine/threonine protein kinase US3
+135166	135171	regulatory
+			regulatory_class	TATA_box
+135192	137534	mRNA
+			product	serine/threonine protein kinase US3
+135225	136670	CDS
+			product	serine/threonine protein kinase US3
+			prot_desc	tegument protein; phosphorylates nuclear egress lamina protein; mediates phosphorylation of HDAC1 and HDAC2 and other cellular and viral proteins; involved in protein phosphorylation; involved in apoptosis; involved in nuclear egress
+			protein_id	ref|YP_009137138.1|
+			note	PK family
+135336	135331	regulatory
+			regulatory_class	TATA_box
+136705	137534	gene
+			gene	US4
+			locus_tag	HHV1gp00p11
+			note	alpha gene
+			db_xref	GeneID:2703404
+136705	136710	regulatory
+			regulatory_class	TATA_box
+136732	137534	mRNA
+			product	envelope glycoprotein G
+136747	137463	CDS
+			product	envelope glycoprotein G
+			prot_desc	type 1 membrane protein; contains a signal peptide; involved in cell-to-cell spread
+			prot_note	involved in apical spread
+			protein_id	ref|YP_009137139.1|
+			note	gD family
+137511	137516	regulatory
+			gene	-
+			note	US3, US4
+			regulatory_class	polyA_signal_sequence
+137599	141052	gene
+			gene	US5
+			locus_tag	HHV1gp00p10
+			note	alpha gene
+			db_xref	GeneID:2703406
+137599	137604	regulatory
+			regulatory_class	TATA_box
+137621	141052	mRNA
+			product	envelope glycoprotein J
+137734	138012	CDS
+			product	envelope glycoprotein J
+			prot_desc	type 1 membrane protein; contains a signal peptide
+			protein_id	ref|YP_009137140.1|
+138313	141052	gene
+			gene	US6
+			locus_tag	HHV1gp00p09
+			note	alpha gene
+			db_xref	GeneID:2703444
+138313	138318	regulatory
+			regulatory_class	TATA_box
+138337	141052	mRNA
+			product	envelope glycoprotein D
+138423	139607	CDS
+			product	envelope glycoprotein D
+			prot_desc	type 1 membrane protein; contains a signal peptide; binds cell surface receptors; involved in cell attachment
+			protein_id	ref|YP_009137141.1|
+			note	gD family
+139670	141052	gene
+			gene	US7
+			locus_tag	HHV1gp00p08
+			note	alpha gene
+			db_xref	GeneID:2703446
+139672	139677	regulatory
+			regulatory_class	TATA_box
+139698	141052	mRNA
+			product	envelope glycoprotein I
+139789	140961	CDS
+			product	envelope glycoprotein I
+			prot_desc	type 1 membrane protein; contains a signal peptide; complexed with envelope glycoprotein E to form an Fc-receptor; involved in cell-to-cell spread
+			prot_note	involved in basolateral spread
+			protein_id	ref|YP_009137142.1|
+			note	gD family
+141017	141022	regulatory
+			gene	-
+			note	US5, US6, US7
+			regulatory_class	polyA_signal_sequence
+141143	143697	gene
+			gene	US8
+			locus_tag	HHV1gp00p07
+			note	alpha gene
+			db_xref	GeneID:2703448
+141143	141148	regulatory
+			regulatory_class	TATA_box
+141175	143697	mRNA
+			product	envelope glycoprotein E
+141247	142899	CDS
+			product	envelope glycoprotein E
+			prot_desc	type 1 membrane protein; contains a signal peptide; complexed with envelope glycoprotein I to form an Fc-receptor; involved in cell-to-cell spread
+			prot_note	involved in basolateral spread
+			protein_id	ref|YP_009137143.1|
+			note	gE family
+142748	143697	gene
+			gene	US8A
+			locus_tag	HHV1gp00p06
+			note	alpha gene
+			db_xref	GeneID:2703450
+142748	143227	CDS
+			product	membrane protein US8A
+			prot_desc	type 2 membrane protein
+			protein_id	ref|YP_009137144.1|
+143223	143697	gene
+			gene	US9
+			locus_tag	HHV1gp00p05
+			db_xref	GeneID:2703452
+143223	143228	regulatory
+			regulatory_class	TATA_box
+143250	143697	mRNA
+			product	membrane protein US9
+143317	143589	CDS
+			product	membrane protein US9
+			prot_desc	type 2 membrane protein; tegument-associated; localizes envelope proteins; involved in axonal transport
+			protein_id	ref|YP_009137145.1|
+143672	143677	regulatory
+			gene	-
+			note	US8, US8A, US9
+			regulatory_class	polyA_signal_sequence
+143716	143868	repeat_region
+			note	US reiteration set 1
+			rpt_type	direct
+			rpt_type	tandem
+			rpt_unit_range	143716..143730
+146096	144124	gene
+			gene	US12
+			locus_tag	HHV1gp00p04
+			note	immediate early gene
+			db_xref	GeneID:2703441
+146068	145822	mRNA
+145653	144124
+			product	TAP transporter inhibitor ICP47
+145495	144124	gene
+			gene	US11
+			locus_tag	HHV1gp00p03
+			db_xref	GeneID:2703439
+145469	144124	mRNA
+			product	tegument protein US11
+145198	144124	gene
+			gene	US10
+			locus_tag	HHV1gp00p02
+			note	alpha gene
+			db_xref	GeneID:2703436
+145171	144124	mRNA
+			product	virion protein US10
+144145	144140	regulatory
+			gene	-
+			note	US10, US11, US12
+			regulatory_class	polyA_signal_sequence
+145100	144162	CDS
+			product	virion protein US10
+			protein_id	ref|YP_009137146.1|
+145251	144766	CDS
+			product	tegument protein US11
+			prot_desc	dsRNA-binding protein; antagonizes PKR; inhibits stress-induced translational arrest; involved in translational regulation
+			protein_id	ref|YP_009137147.1|
+144787	145003	repeat_region
+			note	US reiteration set 2
+			rpt_type	direct
+			rpt_type	tandem
+			rpt_unit_range	144787..144795
+145198	145193	regulatory
+			regulatory_class	TATA_box
+145582	145316	CDS
+			product	TAP transporter inhibitor ICP47
+			prot_desc	inhibits antigen presentation; involved in immune regulation
+			protein_id	ref|YP_009137148.1|
+145495	145490	regulatory
+			regulatory_class	TATA_box
+145590	152222	repeat_region
+			note	TRS; inverted repeat flanking US
+			rpt_type	inverted
+145681	145806	repeat_region
+			note	RS reiteration set 3
+			rpt_type	direct
+			rpt_type	tandem
+			rpt_unit_range	145681..145702
+146096	146091	regulatory
+			regulatory_class	TATA_box
+146173	146217	stem_loop
+			note	oriS palindrome
+146737	151023	gene
+			gene	RS1
+			locus_tag	HHV1gp00p01
+			note	alpha gene; immediate early gene
+			db_xref	GeneID:2703391
+146737	146742	regulatory
+			regulatory_class	TATA_box
+146766	151023	mRNA
+			product	transcriptional regulator ICP4
+147066	150962	CDS
+			product	transcriptional regulator ICP4
+			prot_desc	involved in gene regulation
+			protein_id	ref|YP_009137149.1|
+			note	immediate early protein; transcriptional regulator
+151005	151010	regulatory
+			regulatory_class	polyA_signal_sequence
+151051	151046	regulatory
+			note	LAT
+			regulatory_class	polyA_signal_sequence
+151052	151384	repeat_region
+			note	RS reiteration set 2
+			rpt_type	direct
+			rpt_type	tandem
+			rpt_unit_range	151052..151068
+151486	151624	repeat_region
+			note	RS reiteration set 1
+			rpt_type	direct
+			rpt_type	tandem
+			rpt_unit_range	151486..151501
+151824	152222	repeat_region
+			note	'a' sequence
+			rpt_type	direct
+			rpt_type	terminal
+151921	152143	repeat_region
+			note	'a' sequence reiteration set
+			rpt_type	direct
+			rpt_type	tandem
+			rpt_unit_range	151921..151932
+

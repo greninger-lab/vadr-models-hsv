@@ -1,0 +1,25 @@
+>Feature ref|YP_009137130.1|
+1	512	Protein
+			product	multifunctional expression regulator
+			prot_desc	RNA-binding protein; shuttles between nucleus and cytoplasm; inhibits pre-mRNA splicing; exports virus mRNA from nucleus; exerts most effects post-transcriptionally; involved in gene regulation; involved in RNA metabolism and transport
+			prot_note	ICP27
+			note	ICP27
+<58	302	Region
+			region	PHA03247
+			note	large tegument protein UL36; Provisional
+			db_xref	CDD:223021
+97	137	Region
+			region	HHV-1_VABD
+			note	Herpes viral adaptor-to-host cellular mRNA binding domain
+			db_xref	CDD:293457
+305	508	Region
+			region	Herpes_UL69
+			note	Herpesvirus transcriptional regulator family
+			db_xref	CDD:398881
+1	512	CDS
+			product	multifunctional expression regulator
+			prot_desc	RNA-binding protein; shuttles between nucleus and cytoplasm; inhibits pre-mRNA splicing; exports virus mRNA from nucleus; exerts most effects post-transcriptionally; involved in gene regulation; involved in RNA metabolism and transport
+			prot_note	ICP27
+			protein_id	ref|YP_009137130.1|
+			note	MER family
+

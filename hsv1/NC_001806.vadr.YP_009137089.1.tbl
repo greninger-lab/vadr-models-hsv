@@ -1,0 +1,16 @@
+>Feature ref|YP_009137089.1|
+1	735	Protein
+			product	DNA packaging terminase subunit 1
+			prot_desc	contains an ATPase domain; involved in DNA encapsidation
+			prot_note	transiently associated with maturing capsids
+			note	transiently associated with maturing capsids
+1	735	Region
+			region	PHA03368
+			note	DNA packaging terminase subunit 1; Provisional
+			db_xref	CDD:223060
+1	735	CDS
+			product	DNA packaging terminase subunit 1
+			prot_desc	contains an ATPase domain; involved in DNA encapsidation
+			prot_note	transiently associated with maturing capsids
+			protein_id	ref|YP_009137089.1|
+

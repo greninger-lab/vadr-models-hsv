@@ -1,0 +1,13 @@
+>Feature ref|YP_009137112.1|
+1	1123	Protein
+			product	tegument protein UL37
+			prot_desc	complexed with large tegument protein; involved in virion morphogenesis
+21	1052	Region
+			region	PHA03173
+			note	UL37 tegument protein; Provisional
+			db_xref	CDD:223004
+1	1123	CDS
+			product	tegument protein UL37
+			prot_desc	complexed with large tegument protein; involved in virion morphogenesis
+			protein_id	ref|YP_009137112.1|
+

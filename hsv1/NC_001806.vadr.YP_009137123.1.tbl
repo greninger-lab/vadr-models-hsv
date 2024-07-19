@@ -1,0 +1,13 @@
+>Feature ref|YP_009137123.1|
+1	490	Protein
+			product	transactivating tegument protein VP16
+			prot_desc	transactivates immediate early genes; involved in gene regulation; involved in virion morphogenesis
+1	490	Region
+			region	PHA03380
+			note	transactivating tegument protein VP16; Provisional
+			db_xref	CDD:223067
+1	490	CDS
+			product	transactivating tegument protein VP16
+			prot_desc	transactivates immediate early genes; involved in gene regulation; involved in virion morphogenesis
+			protein_id	ref|YP_009137123.1|
+

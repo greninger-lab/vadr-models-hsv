@@ -1,0 +1,16 @@
+>Feature ref|YP_009137093.1|
+1	1374	Protein
+			product	major capsid protein
+			prot_desc	6 copies form hexons, 5 copies form pentons; involved in capsid morphogenesis
+			prot_note	VP5
+			note	VP5
+17	1372	Region
+			region	Herpes_MCP
+			note	Herpes virus major capsid protein
+			db_xref	CDD:427151
+1	1374	CDS
+			product	major capsid protein
+			prot_desc	6 copies form hexons, 5 copies form pentons; involved in capsid morphogenesis
+			prot_note	VP5
+			protein_id	ref|YP_009137093.1|
+

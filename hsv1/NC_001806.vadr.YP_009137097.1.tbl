@@ -1,0 +1,15 @@
+>Feature ref|YP_009137097.1|
+1	376	Protein
+			product	involved in nucleotide metabolism
+			product	thymidine kinase
+			EC_number	2.7.1.21
+1	375	Region
+			region	PHA03133
+			note	thymidine kinase; Provisional
+			db_xref	CDD:165405
+1	376	CDS
+			product	involved in nucleotide metabolism
+			product	thymidine kinase
+			EC_number	2.7.1.21
+			protein_id	ref|YP_009137097.1|
+

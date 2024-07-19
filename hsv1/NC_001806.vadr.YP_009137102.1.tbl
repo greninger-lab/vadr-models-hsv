@@ -1,0 +1,13 @@
+>Feature ref|YP_009137102.1|
+1	904	Protein
+			product	envelope glycoprotein B
+			prot_desc	type 1 membrane protein; contains a signal peptide; possible membrane fusogen; binds cell surface heparan sulphate; involved in cell entry; involved in cell-to-cell spread
+83	900	Region
+			region	PHA03231
+			note	glycoprotein BALF4; Provisional
+			db_xref	CDD:223014
+1	904	CDS
+			product	envelope glycoprotein B
+			prot_desc	type 1 membrane protein; contains a signal peptide; possible membrane fusogen; binds cell surface heparan sulphate; involved in cell entry; involved in cell-to-cell spread
+			protein_id	ref|YP_009137102.1|
+

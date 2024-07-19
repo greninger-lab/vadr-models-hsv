@@ -1,0 +1,16 @@
+>Feature ref|YP_009137103.1|
+1	785	Protein
+			product	DNA packaging terminase subunit 2
+			prot_desc	involved in DNA encapsidation
+			prot_note	transiently associated with maturing capsids
+			note	transiently associated with maturing capsids
+12	682	Region
+			region	PRTP
+			note	Herpesvirus processing and transport protein
+			db_xref	CDD:426223
+1	785	CDS
+			product	DNA packaging terminase subunit 2
+			prot_desc	involved in DNA encapsidation
+			prot_note	transiently associated with maturing capsids
+			protein_id	ref|YP_009137103.1|
+

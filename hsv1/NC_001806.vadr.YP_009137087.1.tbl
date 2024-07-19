@@ -1,0 +1,14 @@
+>Feature ref|YP_009137087.1|
+1	518	Protein
+			product	tegument serine/threonine protein kinase
+			prot_desc	involved in protein phosphorylation
+158	>428	Region
+			region	SPS1
+			note	Serine/threonine protein kinase [Signal transduction mechanisms]
+			db_xref	CDD:223589
+1	518	CDS
+			product	tegument serine/threonine protein kinase
+			prot_desc	involved in protein phosphorylation
+			protein_id	ref|YP_009137087.1|
+			note	PK family
+

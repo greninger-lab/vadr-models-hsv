@@ -1,0 +1,11 @@
+>Feature ref|YP_009137131.1|
+1	186	Protein
+			product	nuclear protein UL55
+2	173	Region
+			region	Herpes_UL55
+			note	Herpesvirus UL55 protein
+			db_xref	CDD:282405
+1	186	CDS
+			product	nuclear protein UL55
+			protein_id	ref|YP_009137131.1|
+

@@ -1,0 +1,18 @@
+>Feature ref|YP_009137114.1|
+1	1137	Protein
+			product	ribonucleotide reductase subunit 1
+			prot_desc	involved in nucleotide metabolism
+			EC_number	1.17.4.1
+			prot_note	translation initiation factor-associated protein (N-terminal region)
+			note	translation initiation factor-associated protein (N-terminal region)
+500	1116	Region
+			region	RNR_PFL
+			note	Ribonucleotide reductase and Pyruvate formate lyase
+			db_xref	CDD:453898
+1	1137	CDS
+			product	ribonucleotide reductase subunit 1
+			prot_desc	involved in nucleotide metabolism
+			EC_number	1.17.4.1
+			prot_note	translation initiation factor-associated protein (N-terminal region)
+			protein_id	ref|YP_009137114.1|
+

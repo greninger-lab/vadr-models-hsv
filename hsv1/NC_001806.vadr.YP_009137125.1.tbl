@@ -1,0 +1,12 @@
+>Feature ref|YP_009137125.1|
+1	91	Protein
+			product	envelope glycoprotein N
+			prot_desc	type 1 membrane protein; contains a signal peptide; complexed with envelope glycoprotein M; involved in virion morphogenesis; involved in membrane fusion
+			prot_note	not glycosylated
+			note	not glycosylated
+1	91	CDS
+			product	envelope glycoprotein N
+			prot_desc	type 1 membrane protein; contains a signal peptide; complexed with envelope glycoprotein M; involved in virion morphogenesis; involved in membrane fusion
+			prot_note	not glycosylated
+			protein_id	ref|YP_009137125.1|
+

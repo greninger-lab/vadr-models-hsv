@@ -1,0 +1,13 @@
+>Feature ref|YP_009137140.1|
+1	92	Protein
+			product	envelope glycoprotein J
+			prot_desc	type 1 membrane protein; contains a signal peptide
+<16	82	Region
+			region	Alpha_GJ
+			note	Alphavirus glycoprotein J
+			db_xref	CDD:251813
+1	92	CDS
+			product	envelope glycoprotein J
+			prot_desc	type 1 membrane protein; contains a signal peptide
+			protein_id	ref|YP_009137140.1|
+

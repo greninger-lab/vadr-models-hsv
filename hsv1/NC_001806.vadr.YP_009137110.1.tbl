@@ -1,0 +1,16 @@
+>Feature ref|YP_009137110.1|
+1	112	Protein
+			product	small capsid protein
+			prot_desc	located externally on capsid hexons; involved in capsid morphogenesis; possibly involved in capsid transport
+			prot_note	VP26; interacts with dynein
+			note	VP26; interacts with dynein
+6	104	Region
+			region	Herpes_UL35
+			note	Herpesvirus UL35 family
+			db_xref	CDD:282365
+1	112	CDS
+			product	small capsid protein
+			prot_desc	located externally on capsid hexons; involved in capsid morphogenesis; possibly involved in capsid transport
+			prot_note	VP26; interacts with dynein
+			protein_id	ref|YP_009137110.1|
+

@@ -1,20 +1,20 @@
-# <a name="documentation"></a>HSV-2 annotation
+# <a name="documentation"></a>Herpes simplex virus (HSV) genome annotation
 
-## [How to annotate HSV-2 virus sequences with VADR v1.6.3-hav-flu2](#howto)
+## [How to annotate HSV genomes with VADR](#howto)
 
-## [HSV-2 VADR model](#hsv2model)
+## [HSV VADR model](#hsvmodel)
 
 ## [Additional VADR documentation](#docs)
 
 ## [References](#reference)
 
 ---
-## <a name="howto"></a>How to annotate HSV-2 sequences with VADR v1.6.3-hav-flu2:
+## <a name="howto"></a>How to annotate HSV genomes with VADR
 
-Steps for using VADR for HSV-2 annotation:
+Steps for using VADR for HSV annotation:
 
-1. Download and install the latest version of VADR (v1.6.3-hav-flu2), following the
-   instructions on this [page](https://github.com/ncbi/vadr/blob/vadr-1.6.3/documentation/install.md).
+1. Download and install the latest version of VADR, following the
+   instructions on this [page](https://github.com/ncbi/vadr/tree/master).
    Alternatively, you can use the StaPH-B VADR 1.6.3-hav-flu2
    docker image created by Curtis Kapsak (docker image names:
    `staphb/vadr:1.6.3-hav-flu2` and `staphb/vadr:latest`), available on 
@@ -22,10 +22,10 @@ Steps for using VADR for HSV-2 annotation:
    [quay](https://quay.io/repository/staphb/vadr?tab=tags). A brief
    [README for the docker image is here](https://github.com/StaPH-B/docker-builds/tree/master/vadr/1.6.3-hav-flu2).
  
-2. Clone the latest HSV-2 VADR model from this repository (current release v1.0).<br/>
-   `git clone git@github.com:greninger-lab/vadr-models-hsv2.git`<br/>
-   Note the path to the directory name created plus the /hsv2
-   subdirectory (e.g. /home/jfurlong/vadr-models-hsv2/hsv2) as `<hsv2-models-dir-path>`
+2. Clone the latest HSV VADR model from this repository (current release v1.0).<br/>
+   `git clone git@github.com:greninger-lab/vadr-models-hsv.git`<br/>
+   Note the path to the directory name created plus the /hsv2 or /hsv1
+   subdirectory as `<hsv-models-dir-path>`
    for step 4.
 
 4. Remove terminal ambiguous nucleotides from your
@@ -52,7 +52,7 @@ $VADRSCRIPTSDIR/miniscripts/fasta-trim-terminal-ambigs.pl --minlen 50 --maxlen 1
    incompatible with `-p`.***
 
 ```
-v-annotate.pl --split --cpu 4 -s --glsearch -r --alt_pass dupregin,discontn,indfstrn,indfstrp --r_lowsimok --nmiscftrthr 10 -f --keep --mkey NC_001798.vadr --mdir <hsv2-models-dir-path> <fasta-file-to-annotate> <output-directory-to-create>
+v-annotate.pl --split --cpu 4 -s --glsearch -r --alt_pass dupregin,discontn,indfstrn,indfstrp --alt_mnf_yes insertnp --r_lowsimok --nmiscftrthr 10 -f --keep --mkey <NC_001806.vadr for hsv1 or NC_001798.vadr for hsv2> --mdir <hsv-model-dir-path> <fasta-file-to-annotate> <output-directory-to-create>
 ```
 
 5. After running the `v-annotate.pl` command in step 4, there will be a number of files
@@ -63,14 +63,14 @@ v-annotate.pl --split --cpu 4 -s --glsearch -r --alt_pass dupregin,discontn,indf
    https://www.ncbi.nlm.nih.gov/genbank/feature_table/
 
    More information about understanding failures and error alerts can be found in the VADR
-   documentation here: https://github.com/ncbi/vadr/blob/release-1.6.3/documentation/annotate.md
+   documentation here: https://github.com/ncbi/vadr/blob/master/documentation/annotate.md
 
    Error alerts related to features contained in long terminal and internal repeats:<br/>
    `misc_not_failure:"1"` was added to the .minfo file FEATURE entries contained in the long terminal
    and internal repeat regions (e.g., LAT, RL1/neurovirulence protein ICP34.5,
    RL2/ubiquitin E3 ligase ICP0, RS1/transcriptional regulator ICP4) and to
-   UL36/large tegument protein (see explanation below in the [HSV-2 VADR model](#hsv2model) section).
-   Any error alerts for these features will NOT cause failure, and will NOT be
+   UL36/large tegument protein (see explanation below in the [HSV VADR model](#hsvmodel) section).
+   Any normally fatal error alerts for these features will NOT cause failure, and will NOT be
    seen in the `XXXXX.vadr.alt.list`. To assess and potentially resolve error alerts
    and corresponding `misc_feature` entries in the `.tbl` files for these features, one
    will need to look in the `XXXXX.vadr.alt` file.
@@ -92,10 +92,10 @@ v-annotate.pl --split --cpu 4 -s --glsearch -r --alt_pass dupregin,discontn,indf
    options to the `v-annotate.pl` command in step 4. A list of additional command line options for
    controlling alert thresholds can be found [here](https://github.com/ncbi/vadr/blob/release-1.6.3/documentation/annotate.md#v-annotatepl-options-for-controlling-thresholds-related-to-alerts-).
 
-   Error alerts related to UL46 tegument protein VP11/12:<br/>
+   Error alerts related to gaps in start/stop codon due to alignment:<br/>
    In rare cases VADR will generate an error alert when trying to infer start/stop codons.
    VADR is dependent on the alignment in specific ways, and it can infer incorrectly depending on where
-   insertions are placed. This is sometimes seen in error alerts related to tegument protein VP11/12.
+   insertions/deletions are placed. This is sometimes seen in error alerts related to tegument protein VP11/12.
    These alerts will cause failure and can be found in `XXXXX.vadr.alt.list`. Here is an
    example alert: 
    ```
@@ -116,14 +116,14 @@ v-annotate.pl --split --cpu 4 -s --glsearch -r --alt_pass dupregin,discontn,indf
    to manually edit the `.tbl` file with accurate coordinates to resolve the alerts.
 
 ---
-## <a name="hsv2model"></a>HSV-2 VADR model
+## <a name="hsvmodel"></a>HSV-2 VADR model
 
-The VADR model library for HSV-2 annotation includes a single HSV-2
-model based on the
-[`NC_001798`](https://www.ncbi.nlm.nih.gov/nuccore/NC_001798.2)
-RefSeq sequence of length 154,675 nt.
+The VADR model library for HSV-1 annotation includes a single HSV-1
+model based on the Refseq sequence [`NC_001806`](https://ncbi.nlm.nih.gov/nuccore/NC_001806.2)
+and for HSV-2 annotation a single HSV-2 model based on the
+Refseq sequence [`NC_001798`](https://www.ncbi.nlm.nih.gov/nuccore/NC_001798.2)
 
-This model was initially created using the following command:
+This model was initially created using the following command (using HSV-2 model as an example):
 ```
 v-build.pl --forcelong --skipbuild -f --keep NC_001798 NC_001798
 ```
