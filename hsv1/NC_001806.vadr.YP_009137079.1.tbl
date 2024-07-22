@@ -1,0 +1,13 @@
+>Feature ref|YP_009137079.1|
+1	882	Protein
+			product	helicase-primase helicase subunit
+			prot_desc	involved in DNA replication
+21	882	Region
+			region	PHA03311
+			note	helicase-primase subunit BBLF4; Provisional
+			db_xref	CDD:223040
+1	882	CDS
+			product	helicase-primase helicase subunit
+			prot_desc	involved in DNA replication
+			protein_id	ref|YP_009137079.1|
+

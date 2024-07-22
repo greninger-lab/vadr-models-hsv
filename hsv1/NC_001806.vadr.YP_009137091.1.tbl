@@ -1,0 +1,13 @@
+>Feature ref|YP_009137091.1|
+1	703	Protein
+			product	DNA packaging tegument protein UL17
+			prot_desc	capsid-associated; involved in DNA encapsidation; involved in capsid transport
+1	695	Region
+			region	PHA03359
+			note	UL17 tegument protein; Provisional
+			db_xref	CDD:223054
+1	703	CDS
+			product	DNA packaging tegument protein UL17
+			prot_desc	capsid-associated; involved in DNA encapsidation; involved in capsid transport
+			protein_id	ref|YP_009137091.1|
+

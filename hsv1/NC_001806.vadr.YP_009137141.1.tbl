@@ -1,0 +1,18 @@
+>Feature ref|YP_009137141.1|
+1	394	Protein
+			product	envelope glycoprotein D
+			prot_desc	type 1 membrane protein; contains a signal peptide; binds cell surface receptors; involved in cell attachment
+63	374	Region
+			region	PHA03264
+			note	envelope glycoprotein D; Provisional
+			db_xref	CDD:223029
+82	206	Region
+			region	Herpes_glycop_D
+			note	Herpesvirus glycoprotein D/GG/GX domain
+			db_xref	CDD:426313
+1	394	CDS
+			product	envelope glycoprotein D
+			prot_desc	type 1 membrane protein; contains a signal peptide; binds cell surface receptors; involved in cell attachment
+			protein_id	ref|YP_009137141.1|
+			note	gD family
+

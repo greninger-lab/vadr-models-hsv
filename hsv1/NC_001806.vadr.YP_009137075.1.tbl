@@ -1,0 +1,13 @@
+>Feature ref|YP_009137075.1|
+1	224	Protein
+			product	envelope glycoprotein L
+			prot_desc	contains a signal peptide; complexed with envelope glycoprotein H; involved in cell entry; involved in cell-to-cell spread
+1	213	Region
+			region	PHA03301
+			note	envelope glycoprotein L; Provisional
+			db_xref	CDD:223037
+1	224	CDS
+			product	envelope glycoprotein L
+			prot_desc	contains a signal peptide; complexed with envelope glycoprotein H; involved in cell entry; involved in cell-to-cell spread
+			protein_id	ref|YP_009137075.1|
+

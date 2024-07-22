@@ -1,0 +1,17 @@
+>Feature ref|YP_009137139.1|
+1	238	Protein
+			product	envelope glycoprotein G
+			prot_desc	type 1 membrane protein; contains a signal peptide; involved in cell-to-cell spread
+			prot_note	involved in apical spread
+			note	involved in apical spread
+<23	177	Region
+			region	PHA03247
+			note	large tegument protein UL36; Provisional
+			db_xref	CDD:223021
+1	238	CDS
+			product	envelope glycoprotein G
+			prot_desc	type 1 membrane protein; contains a signal peptide; involved in cell-to-cell spread
+			prot_note	involved in apical spread
+			protein_id	ref|YP_009137139.1|
+			note	gD family
+

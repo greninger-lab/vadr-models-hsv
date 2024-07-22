@@ -1,0 +1,13 @@
+>Feature ref|YP_009137116.1|
+1	489	Protein
+			product	tegument host shutoff protein
+			prot_desc	mRNA-specific RNase; involved in cellular mRNA degradation
+192	258	Region
+			region	XPG_I
+			note	XPG I-region
+			db_xref	CDD:453018
+1	489	CDS
+			product	tegument host shutoff protein
+			prot_desc	mRNA-specific RNase; involved in cellular mRNA degradation
+			protein_id	ref|YP_009137116.1|
+

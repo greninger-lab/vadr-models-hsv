@@ -1,0 +1,13 @@
+>Feature ref|YP_009137085.1|
+1	96	Protein
+			product	myristylated tegument protein
+			prot_desc	envelope-associated; involved in virion morphogenesis
+1	93	Region
+			region	PHA03356
+			note	tegument protein UL11; Provisional
+			db_xref	CDD:177594
+1	96	CDS
+			product	myristylated tegument protein
+			prot_desc	envelope-associated; involved in virion morphogenesis
+			protein_id	ref|YP_009137085.1|
+

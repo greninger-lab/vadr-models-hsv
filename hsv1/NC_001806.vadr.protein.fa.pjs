@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "NC_001806.vadr.protein.fa",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "/Users/greningerlab/AS/vadr_hsv/NC_001806/NC_001806.vadr.protein.fa",
+  "number-of-letters": 69106,
+  "number-of-sequences": 145,
+  "last-updated": "2024-07-07T18:21:00",
+  "number-of-volumes": 1,
+  "bytes-total": 123852,
+  "bytes-to-cache": 70580,
+  "files": [
+    "NC_001806.vadr.protein.fa.pdb",
+    "NC_001806.vadr.protein.fa.phr",
+    "NC_001806.vadr.protein.fa.pin",
+    "NC_001806.vadr.protein.fa.pot",
+    "NC_001806.vadr.protein.fa.psq",
+    "NC_001806.vadr.protein.fa.ptf",
+    "NC_001806.vadr.protein.fa.pto"
+  ]
+}

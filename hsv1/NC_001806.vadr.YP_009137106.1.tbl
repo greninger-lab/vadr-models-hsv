@@ -1,0 +1,13 @@
+>Feature ref|YP_009137106.1|
+1	306	Protein
+			product	nuclear egress lamina protein
+			prot_desc	interacts with nuclear egress membrane protein; involved in nuclear egress
+2	306	Region
+			region	PHA03328
+			note	nuclear egress lamina protein UL31; Provisional
+			db_xref	CDD:223046
+1	306	CDS
+			product	nuclear egress lamina protein
+			prot_desc	interacts with nuclear egress membrane protein; involved in nuclear egress
+			protein_id	ref|YP_009137106.1|
+

@@ -1,0 +1,13 @@
+>Feature ref|YP_009137109.1|
+1	275	Protein
+			product	nuclear egress membrane protein
+			prot_desc	type 2 membrane protein; interacts with nuclear egress lamina protein; involved in nuclear egress
+6	270	Region
+			region	PHA03323
+			note	nuclear egress membrane protein UL34; Provisional
+			db_xref	CDD:223043
+1	275	CDS
+			product	nuclear egress membrane protein
+			prot_desc	type 2 membrane protein; interacts with nuclear egress lamina protein; involved in nuclear egress
+			protein_id	ref|YP_009137109.1|
+

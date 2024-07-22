@@ -1,0 +1,17 @@
+>Feature ref|YP_009137142.1|
+1	390	Protein
+			product	envelope glycoprotein I
+			prot_desc	type 1 membrane protein; contains a signal peptide; complexed with envelope glycoprotein E to form an Fc-receptor; involved in cell-to-cell spread
+			prot_note	involved in basolateral spread
+			note	involved in basolateral spread
+2	372	Region
+			region	PHA03291
+			note	envelope glycoprotein I; Provisional
+			db_xref	CDD:223033
+1	390	CDS
+			product	envelope glycoprotein I
+			prot_desc	type 1 membrane protein; contains a signal peptide; complexed with envelope glycoprotein E to form an Fc-receptor; involved in cell-to-cell spread
+			prot_note	involved in basolateral spread
+			protein_id	ref|YP_009137142.1|
+			note	gD family
+

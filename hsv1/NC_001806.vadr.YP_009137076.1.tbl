@@ -1,0 +1,15 @@
+>Feature ref|YP_009137076.1|
+1	334	Protein
+			product	uracil-DNA glycosylase
+			prot_desc	involved in DNA repair
+			EC_number	3.2.2.3
+27	334	Region
+			region	PHA03201
+			note	uracil DNA glycosylase; Provisional
+			db_xref	CDD:165468
+1	334	CDS
+			product	uracil-DNA glycosylase
+			prot_desc	involved in DNA repair
+			EC_number	3.2.2.3
+			protein_id	ref|YP_009137076.1|
+

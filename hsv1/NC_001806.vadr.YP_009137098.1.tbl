@@ -1,0 +1,11 @@
+>Feature ref|YP_009137098.1|
+1	269	Protein
+			product	nuclear protein UL24
+1	259	Region
+			region	PHA03215
+			note	nuclear protein UL24; Provisional
+			db_xref	CDD:223010
+1	269	CDS
+			product	nuclear protein UL24
+			protein_id	ref|YP_009137098.1|
+

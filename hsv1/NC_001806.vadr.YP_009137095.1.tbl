@@ -1,0 +1,13 @@
+>Feature ref|YP_009137095.1|
+1	535	Protein
+			product	tegument protein UL21
+			prot_desc	interacts with microtubules; involved in virion morphogenesis
+1	522	Region
+			region	Herpes_UL21
+			note	Herpesvirus UL21
+			db_xref	CDD:332877
+1	535	CDS
+			product	tegument protein UL21
+			prot_desc	interacts with microtubules; involved in virion morphogenesis
+			protein_id	ref|YP_009137095.1|
+

@@ -1,0 +1,13 @@
+>Feature ref|YP_009137082.1|
+1	750	Protein
+			product	helicase-primase subunit
+			prot_desc	involved in DNA replication
+1	750	Region
+			region	PHA03144
+			note	helicase-primase primase subunit; Provisional
+			db_xref	CDD:223000
+1	750	CDS
+			product	helicase-primase subunit
+			prot_desc	involved in DNA replication
+			protein_id	ref|YP_009137082.1|
+

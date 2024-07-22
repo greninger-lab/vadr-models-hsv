@@ -1,0 +1,13 @@
+>Feature ref|YP_009137081.1|
+1	296	Protein
+			product	tegument protein UL7
+			prot_desc	involved in virion morphogenesis
+1	296	Region
+			region	PHA03361
+			note	UL7 tegument protein; Provisional
+			db_xref	CDD:223055
+1	296	CDS
+			product	tegument protein UL7
+			prot_desc	involved in virion morphogenesis
+			protein_id	ref|YP_009137081.1|
+

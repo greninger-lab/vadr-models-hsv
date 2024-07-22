@@ -1,0 +1,13 @@
+>Feature ref|YP_009137122.1|
+1	693	Protein
+			product	tegument protein VP13/14
+			prot_desc	modulates transactivating tegument protein VP16; RNA-binding protein; possibly involved in gene regulation
+235	618	Region
+			region	Herpes_UL47
+			note	Herpesvirus UL47 protein
+			db_xref	CDD:281371
+1	693	CDS
+			product	tegument protein VP13/14
+			prot_desc	modulates transactivating tegument protein VP16; RNA-binding protein; possibly involved in gene regulation
+			protein_id	ref|YP_009137122.1|
+
