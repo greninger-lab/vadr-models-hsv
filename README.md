@@ -22,8 +22,9 @@ Steps for using VADR for HSV annotation:
    [quay](https://quay.io/repository/staphb/vadr?tab=tags). A brief
    [README for the docker image is here](https://github.com/StaPH-B/docker-builds/tree/master/vadr/1.6.3-hav-flu2).
  
-2. Clone the latest HSV VADR model from this repository (current release v1.0).<br/>
+2. Clone the latest HSV VADR model from this repository (current release v1.0)<br/>
    `git clone git@github.com:greninger-lab/vadr-models-hsv.git`<br/>
+   or download the current release from [here](https://github.com/greninger-lab/vadr-models-hsv/releases/tag/v1.0).</br>
    Note the path to the directory name created plus the /hsv2 or /hsv1
    subdirectory as `<hsv-models-dir-path>`
    for step 4.
