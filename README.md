@@ -2,7 +2,7 @@
 
 ## [How to annotate HSV genomes with VADR](#howto)
 
-## [HSV VADR model](#hsvmodel)
+## [HSV VADR models](#hsvmodel)
 
 ## [Additional VADR documentation](#docs)
 
