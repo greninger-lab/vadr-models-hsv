@@ -42,7 +42,7 @@ $VADRSCRIPTSDIR/miniscripts/fasta-trim-terminal-ambigs.pl --minlen 50 --maxlen 1
 ```        
 
 4. Run the `v-annotate.pl` program on an input trimmed fasta file with
-   HSV-2 sequences using the recommended command and options
+   HSV sequences using the recommended command and options
    below (the command is long so you will likely have to scroll to the right to view the entire command).
 
    ***NOTE: The following command runs multithreaded on up to 4 CPUs,
@@ -129,7 +129,7 @@ This model was initially created using the following command (using HSV-2 model 
 v-build.pl --forcelong --skipbuild -f --keep NC_001798 NC_001798
 ```
 Due to sequencing and assembly difficulties in the long terminal and 
-internal repeat regions of the HSV-2 genome, low similarity range 
+internal repeat regions of the HSV-1/2 genomes, low similarity range 
 exceptions were added in the MODEL entry in the .minfo file. The 
 coordinates of these regions were extended by 101 to account for 
 SPAdes insertion of 100 Ns when unable to join contigs separated 
