@@ -117,7 +117,7 @@ v-annotate.pl --split --cpu 4 -s --glsearch -r --alt_pass dupregin,discontn,indf
    to manually edit the `.tbl` file with accurate coordinates to resolve the alerts.
 
 ---
-## <a name="hsvmodel"></a>HSV-2 VADR model
+## <a name="hsvmodel"></a>HSV VADR models
 
 The VADR model library for HSV-1 annotation includes a single HSV-1
 model based on the Refseq sequence [`NC_001806`](https://ncbi.nlm.nih.gov/nuccore/NC_001806.2)
